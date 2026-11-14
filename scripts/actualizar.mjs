@@ -49,7 +49,7 @@ export function fusionar(actuales, nuevas) {
   const vistos = new Set(actuales.map(n => clave(n.titulo)));
   const agregadas = [];
   for (const n of nuevas) {
-    if (!n.titulo || !RELEVANTE.test(n.titulo) || NO.test(n.titulo)) continue;
+    if (!n.titulo || n.titulo.length < 25 || /^[-–]/.test(n.titulo) || !RELEVANTE.test(n.titulo) || NO.test(n.titulo)) continue;
     const k = clave(n.titulo); if (vistos.has(k)) continue;
     vistos.add(k); agregadas.push({ ...n, auto: true });
   }
