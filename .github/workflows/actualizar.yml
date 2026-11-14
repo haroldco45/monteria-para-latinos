@@ -1,0 +1,42 @@
+name: Robot — Montería para Latinos
+
+on:
+  schedule:
+    - cron: '7,37 * * * *'    # cada 30 minutos
+  workflow_dispatch:          # botón "Run workflow" para correrlo a mano
+
+permissions:
+  contents: write
+
+concurrency:
+  group: robot-monteria
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Buscar noticias y videos nuevos
+        run: node scripts/actualizar.mjs
+
+      - name: Imagen de vista previa con foto real (solo la primera vez)
+        if: hashFiles('data/og-foto.json') == ''
+        run: |
+          pip install --quiet pillow
+          python3 scripts/og.py
+
+      - name: Guardar cambios
+        run: |
+          git config user.name "Robot Vibras Positivas HM"
+          git config user.email "actions@github.com"
+          git add data/ og-image.png
+          git diff --cached --quiet && exit 0
+          git commit -m "Robot: noticias y videos $(TZ=America/Bogota date '+%Y-%m-%d %H:%M') (hora Colombia)"
+          git pull --rebase --quiet
+          git push

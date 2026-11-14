@@ -433,14 +433,26 @@ const ML = {
   ]
 };
 
-const VIDEOS = [
-  [{ es: 'Recorrido por la Ronda del Sinú', en: 'Ronda del Sinú walk' }, 'Ronda del Sinú Montería recorrido', 'ronda'],
-  [{ es: 'Vivir en Montería siendo venezolano', en: 'Living in Montería as a Venezuelan' }, 'venezolano viviendo en Montería experiencia', 'street'],
-  [{ es: 'Feria Nacional de la Ganadería', en: 'National Cattle Fair' }, 'Feria Nacional de la Ganadería Montería cabalgata', 'feria'],
-  [{ es: 'Aprende a bailar porro', en: 'Learn to dance porro' }, 'aprender a bailar porro sabanero paso básico', 'porro'],
-  [{ es: 'Los planchones del río Sinú', en: 'The Sinú river ferries' }, 'planchones río Sinú Montería', 'planchones'],
-  [{ es: 'Businú, el bus por el río', en: 'Businú, the river bus' }, 'Businú Montería transporte fluvial', 'businu'],
-  [{ es: 'Santa Cruz de Lorica', en: 'Santa Cruz de Lorica' }, 'Santa Cruz de Lorica Córdoba mercado', 'lorica']
+// Videos reales de YouTube (revisados el 14 nov 2026). El robot agrega más en data/videos.json
+const VIDEO_LIB = [
+  { id: 'BN96DHexP_w', k: 'ronda', t: { es: 'La Ronda del Sinú desde el aire', en: 'The Ronda del Sinú from the air' } },
+  { id: 'qelb3TRGrp8', k: 'ronda', t: { es: 'Así es el parque lineal Ronda del Sinú', en: 'A walk along the Ronda del Sinú' } },
+  { id: 'HtUb_OFG69U', k: 'ronda', t: { es: 'Lo que no sabes de Montería', en: 'What you don\'t know about Montería' } },
+  { id: 'O-xKs1TwBkU', k: 'centro', t: { es: 'Parque Simón Bolívar y la Catedral desde el aire', en: 'Simón Bolívar Park and the Cathedral from the air' } },
+  { id: '_qBU4y4ga0g', k: 'centro', t: { es: 'Las calles de Montería en 4K', en: 'Montería\'s streets in 4K' } },
+  { id: 'vYIpDKO62wc', k: 'centro', t: { es: 'Los planchones, la tradición para cruzar el Sinú', en: 'The planchones, the traditional way across the Sinú' } },
+  { id: '0dT1qDf-DWo', k: 'centro', t: { es: 'Así funcionan los planchones de Montería', en: 'How Montería\'s river ferries work' } },
+  { id: 'TPIg_GhmxZI', k: 'centro', t: { es: 'Las naves de Businú tocan el agua por primera vez', en: 'The Businú boats touch water for the first time' } },
+  { id: 'Pi3W5p3xriI', k: 'feria', t: { es: 'Feria de la Ganadería: juzgamiento de la raza Brahman', en: 'Cattle Fair: Brahman breed judging' } },
+  { id: 'j9FM96pNyiA', k: 'feria', t: { es: 'Parada folclórica de la Feria 2025', en: 'The 2025 Fair folk parade' } },
+  { id: 'KBP8HHmCyZI', k: 'feria', t: { es: 'Soy Pelayero: la Gran Banda del Festival del Porro', en: 'Soy Pelayero: the Porro Festival grand band' } },
+  { id: 'CmR_4sJTLd0', k: 'feria', t: { es: 'Llegada de las bandas al Festival del Porro', en: 'Bands arriving at the Porro Festival' } },
+  { id: 'o1UsxLw48bc', k: 'costa', t: { es: 'Recorrido por Santa Cruz de Lorica', en: 'A walk through Santa Cruz de Lorica' } },
+  { id: 'K2DYxvQ2cPo', k: 'costa', t: { es: 'El mercado público de Lorica', en: 'Lorica\'s public market' } },
+  { id: 'zlnY2McZsLw', k: 'costa', t: { es: 'El sombrero vueltiao (microdocumental)', en: 'The sombrero vueltiao (short documentary)' } },
+  { id: 'Q6NfXbFm5ms', k: 'costa', t: { es: 'Cómo se teje el vueltiao en Tuchín', en: 'How the vueltiao is woven in Tuchín' } },
+  { id: 'BOYeEr9O54w', k: 'vida', t: { es: 'Cómo preparar mote de queso', en: 'How to make mote de queso' } },
+  { id: 'CUx_9hsvU1g', k: 'vida', t: { es: 'Así se desbordó el Sinú en febrero de 2026', en: 'How the Sinú overflowed in February 2026' } }
 ];
 
 /* ---------- Secciones (vistas) ---------- */
@@ -491,6 +503,13 @@ V.home = () => `
     <div class="lc c3"><div class="lab">${L({ es: '1 dólar hoy', en: '1 US dollar today' })}</div><div class="big" id="fx-usd"><span class="spin"></span></div><div class="sub muted" id="fx-sub"></div></div>
   </div>
   <div id="fiesta-strip"></div>
+  <div class="card mt2" id="news-card">
+    <div class="row" style="justify-content:space-between"><h3 style="text-transform:uppercase">${L({ es: 'Hoy en Montería', en: 'Today in Montería' })}</h3><button class="btn sm red" onclick="loadNews(true)">${L({ es: 'Actualizar', en: 'Refresh' })}</button></div>
+    <p class="small muted" id="news-meta"></p>
+    <div class="status-list mt" id="news-list"><div class="sl"><span class="spin"></span></div></div>
+  </div>
+  <div class="sec-head"><div><h2>${L({ es: 'Video del día', en: 'Video of the day' })}</h2></div></div>
+  <div class="vids">${vidCard(videoOfDay())}</div>
   <div class="ptiles">
     ${SECTIONS.map(s => `<button class="pt ${s.badge ? 'hot' : ''} ${WIDE.includes(s.id) ? 'wide' : ''}" ${s.badge ? `data-badge="${esc(L(s.badge))}"` : ''} ${photo(s.ph)} onclick="go('${s.id}')"><b>${L(s.t)}</b><small>${L(s.s)}</small></button>`).join('')}
   </div>
@@ -520,6 +539,7 @@ V.feria = () => `
     <article class="place"><div class="ph" ${photo('porro')}></div><div class="bd"><h3>${L({ es: 'Porro y fandango', en: 'Porro and fandango' })}</h3><p>${L({ es: 'La música de bandas de viento de Córdoba. En San Pelayo tiene su festival nacional desde 1977.', en: 'Córdoba\'s brass-band music. San Pelayo has held its national festival since 1977.' })}</p></div></article>
     <article class="place"><div class="ph" ${photo('vueltiao')}></div><div class="bd"><h3>${L({ es: 'Sombrero vueltiao', en: 'Sombrero vueltiao' })}</h3><p>${L({ es: 'Tejido por artesanos zenúes con caña flecha. Es símbolo cultural de la Nación.', en: 'Woven by Zenú artisans from caña flecha. A national cultural symbol.' })}</p></div></article>
   </div>
+  ${vidRail('feria')}
   <div class="card mt2 reveal"><h3>${L({ es: 'Consejos para gozarlo', en: 'Tips to enjoy it' })}</h3><ul class="small">
     <li>${L({ es: 'Para la cabalgata y los desfiles, llega temprano y busca sombra: el sol de junio es fuerte.', en: 'For the horse parade and street parades, arrive early and find shade: the June sun is strong.' })}</li>
     <li>${L({ es: 'Compra boletas para conciertos y palcos solo en los canales oficiales: hay estafas con entradas falsas.', en: 'Buy concert and grandstand tickets only through official channels: there are scams with fake tickets.' })}</li>
@@ -665,7 +685,8 @@ function featureView(id, data, o) {
   <div class="rail">${data.doit.map(d => `<article class="place"><div class="ph" ${photo(d[2])}></div><div class="bd"><h3>${L(d[0])}</h3><p>${L(d[1])}</p></div></article>`).join('')}</div>
   <div class="sec-head"><div><h2>${L(o.tipsT)}</h2></div></div>
   <div class="status-list">${data.tips.map((t, i) => `<div class="sl reveal"><div>${num(L(t), i)}</div></div>`).join('')}</div>
-  <div class="btns mt2"><button class="btn red" onclick="showOnMap('${o.mapId}')">${L({ es: 'Ver en el mapa', en: 'See on map' })}</button><a class="btn" href="https://www.youtube.com/results?search_query=${encodeURIComponent(o.yt)}" target="_blank" rel="noopener">${L({ es: 'Videos', en: 'Videos' })}</a></div>`;
+  ${vidRail(id)}
+  <div class="btns mt2"><button class="btn red" onclick="showOnMap('${o.mapId}')">${L({ es: 'Ver en el mapa', en: 'See on map' })}</button><a class="btn" href="https://www.youtube.com/results?search_query=${encodeURIComponent(o.yt)}" target="_blank" rel="noopener">${L({ es: 'Más en YouTube', en: 'More on YouTube' })}</a></div>`;
 }
 V.centro = () => featureView('centro', GS, {
   title: { es: 'El centro y el río', en: 'Downtown & the river' }, sub: { es: 'La Montería de la catedral, los planchones y el nuevo Businú.', en: 'The Montería of the cathedral, the river ferries and the new Businú.' },
@@ -776,8 +797,11 @@ V.media = () => `
     <figure ${photo('iguana')} onclick="go('ronda')"><figcaption>${L({ es: 'Iguanas de la Ronda', en: 'Ronda iguanas' })}</figcaption></figure>
     <figure ${photo('mote')}><figcaption>${L({ es: 'Mote de queso', en: 'Mote de queso' })}</figcaption></figure>
     <figure ${photo('bocachico')}><figcaption>Bocachico</figcaption></figure></div>
-  <div class="sec-head"><div><h2>${L({ es: 'Videos', en: 'Videos' })}</h2><p>${L({ es: 'Abren YouTube con los videos más recientes de cada tema.', en: 'Open YouTube with the latest videos on each topic.' })}</p></div></div>
-  <div class="vids">${VIDEOS.map(v => `<a class="vid" ${photo(v[2])} href="https://www.youtube.com/results?search_query=${encodeURIComponent(v[1])}" target="_blank" rel="noopener"><span class="playc"></span><div><b>${L(v[0])}</b><small>YouTube</small></div></a>`).join('')}</div>`;
+  <div class="sec-head"><div><h2>${L({ es: 'Videos nuevos', en: 'New videos' })}</h2><p id="rv-note">${L({ es: 'El robot los busca en YouTube cada 30 minutos.', en: 'The robot looks for them on YouTube every 30 minutes.' })}</p></div></div>
+  <div class="vids" id="robot-vids"></div>
+  <div class="sec-head"><div><h2>${L({ es: 'Videos de Montería', en: 'Montería videos' })}</h2><p>${L({ es: 'Toca uno para verlo aquí mismo.', en: 'Tap one to watch it right here.' })}</p></div></div>
+  <div class="vids">${VIDEO_LIB.map(vidCard).join('')}</div>
+  <div class="btns mt2"><a class="btn" href="https://www.youtube.com/results?search_query=${encodeURIComponent('Montería Córdoba')}" target="_blank" rel="noopener">${L({ es: 'Más en YouTube', en: 'More on YouTube' })}</a></div>`;
 
 
 V.sos = () => `
@@ -840,7 +864,8 @@ let lifeTab = 'housing';
 V.life = () => `
   ${head('life', L({ es: 'Vivir en Montería', en: 'Living in Montería' }), L({ es: 'Lo que nadie te cuenta al llegar.', en: 'What nobody tells you when you arrive.' }))}
   <div class="tabsx" id="life-tabs">${Object.keys(LIFE).map(k => `<button data-k="${k}" onclick="setLife('${k}')">${L(LIFE[k].t)}</button>`).join('')}</div>
-  <div id="life-body" class="mt"></div>`;
+  <div id="life-body" class="mt"></div>
+  ${vidRail('vida')}`;
 function lifeBody() {
   const x = LIFE[lifeTab];
   return `<div class="hero" style="min-height:190px" ${photo(x.ph)}><div class="in"><h1 style="font-size:2rem">${L(x.t)}</h1></div></div>
@@ -855,6 +880,58 @@ V.first = () => `
   <div class="status-list mt">${FIRST.map((f, i) => { const x = L(f); return `<label class="chk" id="chk-${i}"><input type="checkbox" onchange="tick(${i},this.checked)"><div><b>${esc(x[0])}</b><div class="small muted">${esc(x[1])}</div></div></label>`; }).join('')}</div>`;
 
 
+/* ---------- Videos (reproductor dentro de la app) ---------- */
+const ytThumb = id => `https://i.ytimg.com/vi/${id}/hqdefault.jpg`;
+function vidCard(v) {
+  const title = typeof v.t === 'object' ? L(v.t) : (v.titulo || '');
+  const sub = v.canal ? esc(v.canal) + (v.hace ? ' · ' + esc(v.hace) : '') : 'YouTube';
+  return `<button class="vid" style="--fb:#111;background-image:url('${ytThumb(v.id)}')" onclick="playVideo('${v.id}')"><span class="playc"></span><div><b>${esc(title)}</b><small>${sub}</small></div></button>`;
+}
+function vidRail(k) {
+  const vs = VIDEO_LIB.filter(v => v.k === k); if (!vs.length) return '';
+  return `<div class="sec-head"><div><h2>${L({ es: 'Videos', en: 'Videos' })}</h2><p>${L({ es: 'Toca uno para verlo aquí mismo.', en: 'Tap one to watch it right here.' })}</p></div></div><div class="vids">${vs.map(vidCard).join('')}</div>`;
+}
+function videoOfDay() { const n = Math.floor(new Date(todayISO() + 'T00:00:00Z') / 864e5); return VIDEO_LIB[n % VIDEO_LIB.length]; }
+function playVideo(id) {
+  const m = $('#player'); if (!m) return;
+  $('#player-frame').innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0&playsinline=1" title="YouTube" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>`;
+  $('#player-yt').href = 'https://www.youtube.com/watch?v=' + id;
+  m.classList.add('on');
+}
+function closeVideo() { const m = $('#player'); if (!m) return; m.classList.remove('on'); $('#player-frame').innerHTML = ''; }
+
+/* ---------- Noticias y videos del robot (GitHub Actions cada 30 min) ---------- */
+let NEWS = store.get('news', null), RVIDS = store.get('rvids', null);
+function ago(iso) {
+  if (!iso) return '';
+  const m = Math.max(0, Math.round((Date.now() - new Date(iso)) / 6e4));
+  if (m < 60) return L({ es: 'hace ' + m + ' min', en: m + ' min ago' });
+  const h = Math.round(m / 60); if (h < 48) return L({ es: 'hace ' + h + ' h', en: h + ' h ago' });
+  return new Intl.DateTimeFormat(LANG === 'es' ? 'es-CO' : 'en-GB', { day: 'numeric', month: 'short', timeZone: ZONE }).format(new Date(iso));
+}
+function paintNews() {
+  const box = $('#news-list'); if (!box) return;
+  const list = (NEWS && NEWS.noticias || []).slice(0, 6);
+  box.innerHTML = list.length ? list.map(n => `<a class="sl" href="${esc(n.enlace)}" target="_blank" rel="noopener" style="color:inherit"><div><b>${esc(n.titulo)}</b><small>${esc(n.medio)} · ${ago(n.fecha)}</small></div></a>`).join('')
+    : `<div class="sl"><div><small>${L({ es: 'Sin noticias por ahora. Toca Actualizar.', en: 'No news yet. Tap Refresh.' })}</small></div></div>`;
+  const meta = $('#news-meta'); if (meta) meta.textContent = NEWS && NEWS.revisado ? L({ es: 'El robot revisó las noticias ', en: 'The robot checked the news ' }) + ago(NEWS.revisado) + L({ es: ' · hora Colombia', en: ' · Colombia time' }) : '';
+}
+function paintRobotVids() {
+  const box = $('#robot-vids'); if (!box) return;
+  const vs = (RVIDS && RVIDS.videos || []).slice(0, 8);
+  box.innerHTML = vs.length ? vs.map(vidCard).join('') : `<p class="small muted">${L({ es: 'El robot todavía no ha traído videos nuevos. Mira los de abajo.', en: 'The robot hasn\'t brought new videos yet. See the ones below.' })}</p>`;
+}
+async function loadNews(manual) {
+  if (manual) { const b = $('#news-list'); if (b) b.innerHTML = '<div class="sl"><span class="spin"></span></div>'; }
+  try { NEWS = await getJSON('data/noticias.json?v=' + Date.now()); store.set('news', NEWS); } catch (e) {}
+  paintNews(); buildTicker();
+  if (manual) toast(L({ es: 'Noticias al día', en: 'News updated' }));
+}
+async function loadRobotVids() {
+  try { RVIDS = await getJSON('data/videos.json?v=' + Date.now()); store.set('rvids', RVIDS); } catch (e) {}
+  paintRobotVids();
+}
+
 /* ---------- Render y navegación ---------- */
 const VIEWS = ['home', 'papers', 'work', 'feria', 'ronda', 'centro', 'costa', 'places', 'move', 'health', 'sos', 'talk', 'money', 'life', 'weather', 'first', 'map', 'media'];
 let current = 'home';
@@ -864,7 +941,7 @@ function render() {
   $('#lang-es').classList.toggle('on', LANG === 'es'); $('#lang-en').classList.toggle('on', LANG === 'en');
   $('#main').innerHTML = VIEWS.map(v => `<section class="view ${v === current ? 'on' : ''}" id="v-${v}">${V[v]()}</section>`).join('');
   $('#upd').textContent = VERIFIED + ' · ' + L({ es: 'hora Colombia', en: 'Colombia time' });
-  setTalk(talkTab); setLife(lifeTab); renderAlert(); renderHolidays(); renderFiestas(); restoreChecks(); calcWage(); renderCities();
+  setTalk(talkTab); setLife(lifeTab); paintNews(); paintRobotVids(); renderAlert(); renderHolidays(); renderFiestas(); restoreChecks(); calcWage(); renderCities();
   if (WX) paintWeather(); paintFX();
   tickClock(); buildTicker(); observeReveal(); paintPhotos();
   map = null; if (current === 'map') setTimeout(initMap, 50);
@@ -935,6 +1012,7 @@ function daysTo(iso) { const now = new Date(todayISO() + 'T00:00:00Z'); return M
 function buildTicker() {
   const parts = [];
   parts.push(`<span><i class="dot"></i>${L({ es: 'Hoy en Montería', en: 'Today in Montería' })}: <b>${tzf(ZONE, { weekday: 'long', day: 'numeric', month: 'long' })}</b></span>`);
+  if (NEWS && NEWS.noticias && NEWS.noticias[0]) parts.push(`<span>${L({ es: 'Noticia', en: 'News' })}: <b>${esc(NEWS.noticias[0].titulo)}</b></span>`);
   const d0 = activeDeadline();
   if (d0) parts.push(`<span>${esc(d0.k)}: <b>${L({ es: 'quedan ' + Math.ceil((d0.end - Date.now()) / 864e5) + ' días ', en: Math.ceil((d0.end - Date.now()) / 864e5) + ' days left ' })}${L(d0.tk)}</b></span>`);
   if (WX) parts.push(`<span>${L({ es: 'Clima', en: 'Weather' })}: <b>${Math.round(WX.current.temperature_2m)} °C</b>, ${L({ es: 'sensación', en: 'feels' })} ${Math.round(WX.current.apparent_temperature)} °C</span>`);
@@ -1140,13 +1218,14 @@ $('#install-btn').addEventListener('click', async () => { if (!deferredPrompt) r
 if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
 
 /* ---------- Arranque ---------- */
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeVideo(); });
 window.addEventListener('hashchange', () => go(location.hash.slice(1) || 'home'));
 current = VIEWS.includes(location.hash.slice(1)) ? location.hash.slice(1) : 'home';
 render();
 $$('#tabs button').forEach(b => b.classList.toggle('on', b.dataset.v === current));
 setTimeout(() => $('#splash').classList.add('off'), 900);
-loadWeather(); loadFX(); loadCities();
+loadWeather(); loadFX(); loadCities(); loadNews(); loadRobotVids();
 loadPhotos().then(() => { paintPhotos(); if (map) { map.remove(); map = null; if (current === 'map') initMap(); } });
 setInterval(() => { tickClock(); renderAlert(); }, 30000);
 setInterval(() => { buildTicker(); renderFiestas(); }, 300000);
-document.addEventListener('visibilitychange', () => { if (!document.hidden) { tickClock(); renderAlert(); buildTicker(); renderFiestas(); loadWeather(); loadFX(); } });
+document.addEventListener('visibilitychange', () => { if (!document.hidden) { tickClock(); renderAlert(); buildTicker(); renderFiestas(); loadWeather(); loadFX(); loadNews(); loadRobotVids(); } });

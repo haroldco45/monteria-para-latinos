@@ -1,5 +1,5 @@
 /* Montería para Latinos — Service Worker (Vibras Positivas HM) */
-const VERSION = 'mtr-v1';
+const VERSION = 'mtr-v2';
 const SHELL = ['./', './index.html', './app.js', './manifest.json', './icon-192.png', './icon-512.png',
   'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js',
   'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css'];
@@ -16,7 +16,7 @@ self.addEventListener('fetch', e => {
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
   // Datos en vivo (clima, cambio, Wikipedia, lista de ciudades) y la propia app: red primero, caché de respaldo
-  const live = /open-meteo\.com|er-api\.com|wikipedia\.org/.test(url.host) || /ciudades\.json$/.test(url.pathname)
+  const live = /open-meteo\.com|er-api\.com|wikipedia\.org/.test(url.host) || /ciudades\.json$/.test(url.pathname) || /\/data\/.*\.json$/.test(url.pathname)
     || (url.origin === self.location.origin && /(\/|index\.html|app\.js)$/.test(url.pathname));
   if (live || req.mode === 'navigate') {
     e.respondWith(fetch(req).then(r => {
@@ -26,7 +26,7 @@ self.addEventListener('fetch', e => {
     return;
   }
   // Fotos de Wikimedia: caché primero para verlas sin internet
-  const photo = /wikimedia\.org$/.test(url.host);
+  const photo = /wikimedia\.org$|ytimg\.com$/.test(url.host);
   const tile = /basemaps\.cartocdn\.com$/.test(url.host);
   e.respondWith(caches.match(req).then(hit => hit || fetch(req).then(r => {
     if (r.ok || ((tile || photo) && r.type === 'opaque')) { const cp = r.clone(); caches.open(VERSION).then(c => c.put(req, cp)); }

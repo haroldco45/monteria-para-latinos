@@ -12,6 +12,16 @@ App: https://haroldco45.github.io/monteria-para-latinos/
 - **Ronda del Sinú**, **El centro y el río** (catedral, planchones, Businú, Mercado del Sur) y **Lorica y el mar de Córdoba** (Cispatá, Coveñas, Tuchín): secciones propias.
 - **Transporte**: bus y buseta a $3.500 (2026), Businú (transporte fluvial desde dic 2025), planchones, mototaxi, taxis, terminal y aeropuerto Los Garzones.
 - **Salud y SOS** (Hospital San Jerónimo, red Vidasinú), **Hablar costeño** sabanero (con voz), **Peso y cambio** en vivo, **Lugares, mapa, fotos y videos**, **Clima y festivos** (con aviso de inundaciones del Sinú), **Primeros días** y **Vivir aquí**.
-- Franja "Hoy en Montería" que se actualiza sola y enlaces a las demás ciudades de la serie.
+- **Hoy en Montería**: noticias reales con botón Actualizar, franja que se actualiza sola y enlaces a las demás ciudades de la serie.
+- **Videos**: 18 videos reales de Montería que se ven dentro de la app (Ronda, centro y planchones, Businú, Feria, Porro, Lorica, sombrero vueltiao, mote de queso), video del día y videos nuevos que trae el robot.
+
+## Robot (GitHub Actions)
+
+`.github/workflows/actualizar.yml` corre cada 30 minutos (y a mano con *Run workflow*):
+
+- `scripts/actualizar.mjs` busca noticias de Montería y Córdoba en Google Noticias (`data/noticias.json`) y videos recientes en YouTube (`data/videos.json`).
+- `scripts/og.py` (solo la primera vez) arma `og-image.png`, la imagen de vista previa del enlace, con una foto real de Montería de Wikimedia Commons y su crédito.
+
+`netlify.toml` evita que Netlify publique de nuevo con cada commit del robot.
 
 Sin emojis ni íconos: fotos reales de Wikipedia / Wikimedia Commons. Datos revisados el 14 de noviembre de 2026.
