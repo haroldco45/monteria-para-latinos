@@ -48,25 +48,25 @@ const VERIFIED = '14 nov 2026';
 // key: [título en en.wikipedia, búsquedas de respaldo en Commons en orden]
 const PH = {
   monteria: ['Montería', 'Monteria Cordoba Colombia'],
-  sinu: ['Sinú River', 'Rio Sinu Monteria'],
+  sinu: ['', 'Rio Sinu Monteria', 'Sinu river Colombia', 'Rio Sinu Cordoba'],
   ronda: ['', 'Ronda del Sinu Monteria', 'Ronda del Sinú', 'Monteria rio Sinu parque', 'Rio Sinu Monteria orilla'],
   catedral: ['', 'Catedral San Jeronimo Monteria', 'Catedral de Monteria', 'Monteria cathedral', 'Monteria iglesia'],
   bolivar: ['', 'Parque Simon Bolivar Monteria', 'Monteria plaza Bolivar', 'Monteria centro parque'],
-  planchones: ['', 'planchon rio Sinu Monteria', 'planchon Monteria', 'Monteria planchon', 'ferry rio Sinu'],
-  businu: ['', 'Businu Monteria', 'embarcadero Monteria rio Sinu', 'Monteria muelle rio Sinu', 'Monteria river boat'],
-  muzac: ['', 'Museo Zenu de Arte Contemporaneo Monteria', 'MUZAC Monteria', 'Monteria museo'],
-  mercado: ['', 'Mercado del Sur Monteria', 'mercado publico Monteria', 'Monteria market'],
+  planchones: ['', 'planchon rio Sinu Monteria', 'planchon Monteria', 'planchon Sinu', 'Rio Sinu', 'Sinu river'],
+  businu: ['', 'Businu Monteria', 'embarcadero Monteria rio Sinu', 'Monteria rio', 'Rio Sinu Cordoba Colombia', 'lancha rio Colombia'],
+  muzac: ['', 'MUZAC Monteria fachada', 'Monteria Ronda del Sinu noche', 'Monteria parque', 'Monteria Cordoba'],
+  mercado: ['', 'Mercado del Sur Monteria', 'mercado publico Monteria', 'Monteria mercado', 'mercado Cordoba Colombia', 'plaza de mercado Colombia frutas'],
   feria: ['', 'Feria de la Ganaderia Monteria', 'Feria ganadera Monteria', 'Feria ganadera Cordoba Colombia'],
   cebu: ['Brahman cattle', 'ganado cebu Cordoba Colombia'],
   caballo: ['Paso Fino', 'caballo de paso fino Colombia'],
   porro: ['Porro', 'Festival del Porro San Pelayo'],
   vueltiao: ['Sombrero vueltiao', 'sombrero vueltiao Tuchin'],
-  lorica: ['Santa Cruz de Lorica', 'Lorica Cordoba'],
+  lorica: ['', 'Lorica Cordoba mercado', 'Santa Cruz de Lorica', 'Lorica Cordoba', 'Lorica Colombia'],
   cispata: ['', 'Bahia de Cispata', 'Cispata San Antero', 'San Antero Cordoba manglar', 'San Antero Cordoba'],
   covenas: ['Coveñas', 'Covenas playa'],
   tuchin: ['Tuchín', 'Tuchin Cordoba'],
   sanpelayo: ['San Pelayo, Córdoba', 'San Pelayo Cordoba'],
-  arboletes: ['Arboletes', 'volcan de lodo Arboletes'],
+  arboletes: ['', 'volcan de lodo Arboletes', 'Arboletes volcan', 'Arboletes playa', 'Arboletes Antioquia'],
   iguana: ['Green iguana', 'iguana Colombia'],
   perezoso: ['Brown-throated sloth', 'perezoso Colombia'],
   mote: ['', 'mote de queso', 'mote de queso Colombia', 'Colombian cheese soup'],
@@ -81,7 +81,7 @@ const PH = {
   house: ['', 'casa Monteria barrio', 'Monteria arquitectura', 'Monteria vivienda']
 };
 
-const PHOTO_CACHE = store.get('photos3', {});
+const PHOTO_CACHE = store.get('photos4', {});
 function fbColor(key) { let h = 0; for (const c of key) h = (h * 31 + c.charCodeAt(0)) >>> 0; return PALETTE[h % PALETTE.length]; }
 const photo = key => `data-ph="${key}" style="--fb:${fbColor(key)}"`;
 
@@ -128,7 +128,7 @@ async function loadPhotos() {
         if (u && !Object.values(PHOTO_CACHE).includes(u)) { PHOTO_CACHE[k] = u; break; }
       }
     }
-    store.set('photos3', PHOTO_CACHE);
+    store.set('photos4', PHOTO_CACHE);
   })();
   return photosLoading;
 }
@@ -439,12 +439,10 @@ const VIDEO_LIB = [
   { id: 'qelb3TRGrp8', k: 'ronda', t: { es: 'Así es el parque lineal Ronda del Sinú', en: 'A walk along the Ronda del Sinú' } },
   { id: 'HtUb_OFG69U', k: 'ronda', t: { es: 'Lo que no sabes de Montería', en: 'What you don\'t know about Montería' } },
   { id: 'O-xKs1TwBkU', k: 'centro', t: { es: 'Parque Simón Bolívar y la Catedral desde el aire', en: 'Simón Bolívar Park and the Cathedral from the air' } },
-  { id: '_qBU4y4ga0g', k: 'centro', t: { es: 'Las calles de Montería en 4K', en: 'Montería\'s streets in 4K' } },
   { id: 'vYIpDKO62wc', k: 'centro', t: { es: 'Los planchones, la tradición para cruzar el Sinú', en: 'The planchones, the traditional way across the Sinú' } },
   { id: '0dT1qDf-DWo', k: 'centro', t: { es: 'Así funcionan los planchones de Montería', en: 'How Montería\'s river ferries work' } },
   { id: 'TPIg_GhmxZI', k: 'centro', t: { es: 'Las naves de Businú tocan el agua por primera vez', en: 'The Businú boats touch water for the first time' } },
   { id: 'Pi3W5p3xriI', k: 'feria', t: { es: 'Feria de la Ganadería: juzgamiento de la raza Brahman', en: 'Cattle Fair: Brahman breed judging' } },
-  { id: 'j9FM96pNyiA', k: 'feria', t: { es: 'Parada folclórica de la Feria 2025', en: 'The 2025 Fair folk parade' } },
   { id: 'KBP8HHmCyZI', k: 'feria', t: { es: 'Soy Pelayero: la Gran Banda del Festival del Porro', en: 'Soy Pelayero: the Porro Festival grand band' } },
   { id: 'CmR_4sJTLd0', k: 'feria', t: { es: 'Llegada de las bandas al Festival del Porro', en: 'Bands arriving at the Porro Festival' } },
   { id: 'o1UsxLw48bc', k: 'costa', t: { es: 'Recorrido por Santa Cruz de Lorica', en: 'A walk through Santa Cruz de Lorica' } },

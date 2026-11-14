@@ -9,11 +9,12 @@ const ctx = await b.newContext({ viewport: { width: 432, height: 768 }, deviceSc
 await ctx.addInitScript(() => { try { localStorage.setItem('mtr_lang', '"es"'); } catch (e) {} });
 const pg = await ctx.newPage();
 await pg.goto(URL_APP, { waitUntil: 'load', timeout: 60000 });
-await pg.waitForTimeout(9000); // fotos, clima, noticias
+await pg.waitForTimeout(15000); // fotos, clima, noticias
 for (const v of VISTAS) {
   await pg.evaluate(x => go(x), v);
   await pg.waitForTimeout(v === 'map' ? 7000 : 3500);
-  await pg.evaluate(() => { const i = document.querySelector('#install'); if (i) i.remove(); });
+  await pg.addStyleTag({ content: '.reveal{opacity:1!important;transform:none!important} nav.tabs,#install,.toast{display:none!important} header.top{position:static!important} body{padding-bottom:0!important}' });
+  await pg.waitForTimeout(300);
   await pg.screenshot({ path: `capturas/${v}.jpg`, type: 'jpeg', quality: 92, fullPage: true });
   console.log('captura', v);
 }
