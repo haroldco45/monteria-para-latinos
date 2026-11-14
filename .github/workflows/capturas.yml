@@ -1,0 +1,34 @@
+name: Capturas para el video promocional
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  capturas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Instalar navegador
+        run: |
+          npm i --no-save playwright@1
+          npx playwright install --with-deps chromium
+      - name: Tomar capturas del sitio en Netlify
+        run: node scripts/capturas.mjs
+      - name: Guardar en la rama capturas
+        run: |
+          git config user.name "Robot Vibras Positivas HM"
+          git config user.email "actions@github.com"
+          mv capturas /tmp/capturas
+          git checkout --orphan capturas
+          git rm -rf --cached . >/dev/null
+          rm -rf ./* .github .gitignore 2>/dev/null || true
+          mv /tmp/capturas ./capturas
+          git add capturas
+          git commit -m "Capturas del sitio $(TZ=America/Bogota date '+%Y-%m-%d %H:%M')"
+          git push -f origin capturas
