@@ -54,9 +54,9 @@ const PH = {
   bolivar: ['', 'Parque Simon Bolivar Monteria', 'Monteria plaza Bolivar', 'Monteria centro parque'],
   planchones: ['', 'planchon rio Sinu Monteria', 'planchon Monteria', 'planchon Sinu', 'Rio Sinu', 'Sinu river'],
   businu: ['', 'Businu Monteria', 'embarcadero Monteria rio Sinu', 'Monteria rio', 'Rio Sinu Cordoba Colombia', 'lancha rio Colombia'],
-  muzac: ['', 'MUZAC Monteria fachada', 'Monteria Ronda del Sinu noche', 'Monteria parque', 'Monteria Cordoba'],
-  mercado: ['', 'Mercado del Sur Monteria', 'mercado publico Monteria', 'Monteria mercado', 'mercado Cordoba Colombia', 'plaza de mercado Colombia frutas'],
-  feria: ['', 'Feria de la Ganaderia Monteria', 'Feria ganadera Monteria', 'Feria ganadera Cordoba Colombia'],
+  muzac: ['', 'Monteria rio Sinu atardecer', 'Sinu river sunset', 'Rio Sinu Cordoba Colombia paisaje'],
+  mercado: ['', 'tropical fruit market stall Colombia', 'frutas plaza de mercado Colombia', 'fruit stand Colombia'],
+  feria: ['', 'Feria de la Ganaderia Monteria', 'Feria ganadera Monteria', 'Brahman bull show', 'zebu cattle show ring', 'Nelore cattle'],
   cebu: ['Brahman cattle', 'ganado cebu Cordoba Colombia'],
   caballo: ['Paso Fino', 'caballo de paso fino Colombia'],
   porro: ['Porro', 'Festival del Porro San Pelayo'],
@@ -81,7 +81,7 @@ const PH = {
   house: ['', 'casa Monteria barrio', 'Monteria arquitectura', 'Monteria vivienda']
 };
 
-const PHOTO_CACHE = store.get('photos4', {});
+const PHOTO_CACHE = store.get('photos5', {});
 function fbColor(key) { let h = 0; for (const c of key) h = (h * 31 + c.charCodeAt(0)) >>> 0; return PALETTE[h % PALETTE.length]; }
 const photo = key => `data-ph="${key}" style="--fb:${fbColor(key)}"`;
 
@@ -128,7 +128,7 @@ async function loadPhotos() {
         if (u && !Object.values(PHOTO_CACHE).includes(u)) { PHOTO_CACHE[k] = u; break; }
       }
     }
-    store.set('photos4', PHOTO_CACHE);
+    store.set('photos5', PHOTO_CACHE);
   })();
   return photosLoading;
 }
