@@ -8,7 +8,7 @@ const b = await chromium.launch();
 const ctx = await b.newContext({ viewport: { width: 432, height: 768 }, deviceScaleFactor: 2.5, locale: 'es-CO', timezoneId: 'America/Bogota', isMobile: true, hasTouch: true });
 await ctx.addInitScript(() => { try { localStorage.setItem('mtr_lang', '"es"'); } catch (e) {} });
 const pg = await ctx.newPage();
-await pg.goto(URL_APP, { waitUntil: 'networkidle' });
+await pg.goto(URL_APP, { waitUntil: 'load', timeout: 60000 });
 await pg.waitForTimeout(9000); // fotos, clima, noticias
 for (const v of VISTAS) {
   await pg.evaluate(x => go(x), v);
