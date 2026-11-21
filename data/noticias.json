@@ -1,7 +1,28 @@
 {
-  "revisado": "2026-11-21T06:56:38.446Z",
-  "actualizado": "2026-11-21T06:56:38.446Z",
+  "revisado": "2026-11-21T15:16:50.438Z",
+  "actualizado": "2026-11-21T15:16:50.438Z",
   "noticias": [
+    {
+      "titulo": "Montería reúne a expertos internacionales en el III Congreso de Turismo de Experiencias",
+      "medio": "Chica Noticias",
+      "enlace": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1oVEQ5eEFxX3ZPU2ZRRk1Yd3FCVzd6Q0s1VzdfZWFqZTlSb0JISWJtVTNrazd1YmNyY3FJek5PN0dtQ1hpS2tRU2VaUXFKMHlKTmlGaldWN0UzZk9yTGFGMEZvNlpFUHBvWDNmNDRCZzFQc3hoZ0E?oc=5",
+      "fecha": "2026-11-21T13:53:01.000Z",
+      "auto": true
+    },
+    {
+      "titulo": "Tres vidas perdidas en accidentes de tránsito que enlutan a Córdoba",
+      "medio": "Chica Noticias",
+      "enlace": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBqWGNvNkJicnkyRDFTQWVUVmNBTU04U1EtT0dkRkY1S0owN1FKS0gwQW5VQzQxdGdGTS1OU0stZzRLbGNsRHBNWmNZMmhJLTUyRHFuaTBNRHQwVmJ6ODBSSnJncTVBZlZrazhPcnNFcnVTSDRaUVoyaDZGOU0?oc=5",
+      "fecha": "2026-11-21T13:51:04.000Z",
+      "auto": true
+    },
+    {
+      "titulo": "Activista de ‘El Tigre’ recibió corona fúnebre en su casa de Montería y teme por su seguridad",
+      "medio": "Chica Noticias",
+      "enlace": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5CaGVzTmppUjZrMlVnRWoxbXNJd0RDTnBzU1g4ZTlUSEpqYkIzcW8teWlLVWxnc2J2aG1BYklVOHVIblRxNkhlWlR1NmROTUdWZmNQYUFOVnZwRExyczBrd0pOUQ?oc=5",
+      "fecha": "2026-11-21T02:09:14.000Z",
+      "auto": true
+    },
     {
       "titulo": "Médico fue hallado sin vida dentro de su apartamento en el norte de Montería",
       "medio": "Minuto30",
@@ -31,6 +52,13 @@
       "auto": true
     },
     {
+      "titulo": "Alcalde de Montería destaca avances en la instalación de paneles solares en la IE Mercedes Ábrego",
+      "medio": "río noticias",
+      "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYWppcFRKZXh2MUNuUDdEUW5JV1FxbEl1TlVReHR1azEycFdldlhVd0JRU3Z3Wm1YREk0SUxtYnNKVElqUFY1eDQ5NC1tY0p6UWd2cWZaNjZfbWtBcFREOU9WNG51ZnYtMlJBckhSQnB6THloc2lPOWpKdmFFTjktYnppTHgzQ3E1Xy1kTEx2X2V6Z2h4RDM2bUxjcFpDbE1DbVJfbjhNWEUyUDhqMm1nWVpFcWdwYllBR3RYTXpR0gHDAUFVX3lxTE1HSUZXOHZ0Ylc3Qml6ZVVqbTZscGR3YnhUbVRhMlllRldDcExkZWZuNVo5WjQ2T1hfVk56SURUYTd4aTRHTHk0M1lsYUxUSloxT3Y3NmxxSTMwODJnVDVJeDNiRW1IbXdWZEhoMXRDaEFoZ3V2a0t3dVZMa1dpaWF1SGp1ajJqNUFnSl9SRm01SV9nbExRcUFCa3hZUHNiMU9RckVHUWN3S0UxS1hKUTZwRFBQaTN5WEdVSXdEcmtXNE1Waw?oc=5",
+      "fecha": "2026-11-20T20:26:36.000Z",
+      "auto": true
+    },
+    {
       "titulo": "“Sí se pudo”: gobernador de Córdoba sobre participación de Vaqueros en la temporada de béisbol",
       "medio": "Caracol Radio",
       "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdEhsQl8wZlBwM0thSTY4eDZKbElwSlMyRTE4NGg3SHdJS0xzd2Utd052aktZXzk1bHRQLVB0ZTJpUUtVQ0tUSUlFZERiMk9CbmlpWWFheGxKc2dZZ2R5eWRqQ0V0OF9GSkk3ZElRYTZJT0JHOWZuMmJVanN4TVVRUUctQnJfdEZfa2NmUzZ4TVU5STQ5QjViSVhiRGI3Wk5DUktMUVhhOV9UWUVfaV9NYXRtLW5YT1o3ZHZKVnlMZGN4Q3Rj0gHYAUFVX3lxTE52VDVDUm9uNjZoYVVvVzFqakNtQm94akJPUW9LQzVsekd4QVdoYUhjUElXS3lPV1FYT3hhTFBQcGRwd1R1eS1EamhUM20ydEROS3RWUlpCVkJtdm9adV9Gakp3NU9od2s2dTJWbUMwWlF2VUFWTE5IR3RJTXN4clBxcy1YZWZ3VGhLRWZPYzVWS0NlRVhSMUtGbndYTHEySnk3cklVZ01UTVFGbHlISWNLSkRtRmtmMVFxRWR4WnR5VTBGTGNmUDhsUzJuREdncFBPWXhZeE1wNQ?oc=5",
@@ -49,6 +77,13 @@
       "medio": "Hora 13 Noticias",
       "enlace": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB1ZTZvN3oyREFrMlhQT2JDeGlQQzZfVjNNWURGM1picnFkM1A3S1FBbEt5SlY5QTU3bnBVNUhyUW9HcmJnX2tJNHQwWC1TTnBwZWZWanpvSi0zNUxNMW1mOFlidGM5MTV5VkpiaA?oc=5",
       "fecha": "2026-11-20T13:36:51.000Z",
+      "auto": true
+    },
+    {
+      "titulo": "Montería está lista para la celebración de las Fiestas del Río 2026: conoce la programación",
+      "medio": "La Guía de Montería",
+      "enlace": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBpUmRHbVloc1FVdGZNUmMweklWMGZrdVRsMlBlb0VIWnkycjlSMHhQUXAzLXQ1WVpQN3c2NTFUMFJNcDhYelNxU214blRHWk9aaFc5aFF2X1NaZGNWRk9Ic09nNGtQRFBuOUQxZDJLWERIOVo4RnItLVFR?oc=5",
+      "fecha": "2026-11-20T13:22:47.000Z",
       "auto": true
     },
     {
@@ -1015,41 +1050,6 @@
       "medio": "LA RAZÓN.CO",
       "enlace": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQekhiN09vTHI0SDYtSURBMlpCRnd2ajY1eHJxNXd3MnMyT3dTQjk0OF9TSlVPZ3NmN1c2RXMzNlBqTWZGYmdQODIyY3Ntc1BybnVVQXE3ZkxsT2NXb2VMekF1SnluaUtITXc5SGJSUkZ5Ty1KdnVXck82ekRvYXJKUjNua3E3dlI0ZGZFVlg3bjN5eWtkRHI0WnJaZTZzNzJER21B?oc=5",
       "fecha": "2026-10-31T07:00:00.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "Tres capturados y un arma incautada en Montería",
-      "medio": "Policía Nacional de Colombia",
-      "enlace": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTGU2TE16WnBEVnNlellMWTVnNEMxUXVUby1XVTg3WmVRWUJJNnRibGVEclE3NkY1R1FITXZXS1FYWHBVT1RtdDNtYS00a1pHal9zTjZoWUM3X2NGeVM3UXQyYl95aVAxS1ZUTENvVkR1MDlybm1QNXlCazluVXhqbEItYnBpNkE?oc=5",
-      "fecha": "2026-10-31T07:00:00.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "El tercer puente de Montería empieza a tomar forma sobre el río Sinú: ya supera el 46 % de ejecución",
-      "medio": "río noticias",
-      "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNzdKNFVKVXdROHFyTVc0dGdaWmdLQWo0ai1rU0ZwZWRaVjRlVVhfZzFZQlJ3cHpfNFUxNGJPWmV5c082eGUzaGxxYlFxNlk0MlZwclgwWk1oMy12bF9zTk1abWJfVEQzVXR3MmJWRkZrSUhvTWNaOWdnbWhJVHc1QVNzOVJCMkIzYURWNV93cENJRlptZFk3ZGZkNmVtaTEyMHhhUUtLcUswZXNzZDRVRUstbUx4emlXZFpVX2hB0gHDAUFVX3lxTE1vdzlDamZYMW13VllNelU5OWdJam9oOHN6VkxpZ3V3NG1POXlVVC1DSy13X3h5amVZUXdzRC1OOG1VSHZlWVZIbFh3a2dQcEJ6ZHh3RjRvcDBENmJ6X0xWeGoxUW1qOXBWOE9vTW9JMG01cldVeUhQUHlPTkY0bFlSbVhiZ0FkeWRjR3JZYXBKTFl0aEx6RWRlTmZiYzdHcTYyUi1UaTh3UmV5enJOczVXSGJRUExXOFVnOW10Q2pOa2xINA?oc=5",
-      "fecha": "2026-10-31T07:00:00.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "Fenalco Córdoba pide garantías y transparencia en las elecciones de la Cámara de Comercio de Montería",
-      "medio": "LA RAZÓN.CO",
-      "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOVJySE9WZXBPWDhRMElPeGZqdXFPRDlqcjh3T0FQU29kdFNhOTZ2WE1LNWFVOWt4cEJybER5NnZ0elgwVkEwazBTc3h4OTNVOFFodHZBQUVBOVlmY2c2VUdxbVZ4c21KeDRSejhHU2RLN25UaVF2Y3VfVHNyQ2VJNnBrV1psU2IxRlNRczg3WEZPOUhLSlVCUEJPV3B6a3hMR0c0ZGtYMjhMMzljWWo2cmljRnBnMzFYWVI4SHJB?oc=5",
-      "fecha": "2026-10-30T21:54:09.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "La gobernación de Córdoba dispone transporte gratuito desde cinco puntos de Montería para ir al Pueblito Cordobés",
-      "medio": "ELHERALDO.CO",
-      "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPYzZSTG8zdWcyc0Z0dEl2U2x3WE9pUGFma1djZG1aS2s5YmV2cTVaekl4UXJwTHhSTVJ3X1I1ZHk0VnZFeHVNY09neDd5XzIwUzV5Vk1TS2NaUWhjejB0OWl0ZGVBUnpFczFWT2d0RW56cWNEQm9TVkZqcFVOVFJpUnRPZ0NwUHVhY1RmeG40TnM1X3NNUUpPVV8zd3lxZnBJTGcxVlhIbkloa0JXM3AxYzB2THlyWFVaUXV5c09xTEprVzNubWU3cmVyNE5zdURSYjdmX2NFS0MwTFJKaE5fRTBSNUlBRDdGbmE3RUJLcnM?oc=5",
-      "fecha": "2026-10-30T07:00:00.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "La Policía Nacional fortalece la articulación institucional para la protección de líderes sociales en Montería",
-      "medio": "Policía Nacional de Colombia",
-      "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdV9McE54MjU0N1NaSHBkTnpDNVlMYVFFcjdMLWo1X19ZdnpsUWpkN2IzNjJXcHVxR1RZTVp5WUJNOTY5cUZmc1duTE1oOWMyZFByZC1uMXlzTUpMd0RGYk00UERLWHdEMDBDUkd0YzBEZFFjMUUxQm0xSG9XWVVhWUhQVTFDWnp4cUhhX2VfREtLZC1GSWxienV3ZXNTZ25wdGtDTFJvR3hQdTAtWTQ2bVZGQnF0MVJndFNvaUVJMHRvQQ?oc=5",
-      "fecha": "2026-10-30T07:00:00.000Z",
       "auto": true
     }
   ]
