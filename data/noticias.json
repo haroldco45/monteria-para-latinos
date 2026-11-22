@@ -1,7 +1,14 @@
 {
-  "revisado": "2026-11-21T21:05:33.381Z",
-  "actualizado": "2026-11-21T21:05:33.381Z",
+  "revisado": "2026-11-22T01:13:48.288Z",
+  "actualizado": "2026-11-22T01:13:48.288Z",
   "noticias": [
+    {
+      "titulo": "En Montería le impusieron las bandas a las candidatas del Reinado del Río",
+      "medio": "ELHERALDO.CO",
+      "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUWlNOW10aDRzaVVxQldqTmd2N2xwQlpiUi1mT2otcHFrQjVOQTk2MW5lb0xJSDFocmNyQlFrYUM5eTF4RldPM0VIQzJHdzBqVDh0dElMakNHd21odTNaVXZqdkxSVDl4NUdEU0Z0ZnN4REVnOEJnd1lmVjltY1dqRHRkYnRHbDJBeFVBLTJFUFp6VWRUNjRWZHJLYXBJWlVRNjZBbnQ4UWNia1RBMWtJeDhGZ3dvYXlVSDcw?oc=5",
+      "fecha": "2026-11-21T21:02:42.000Z",
+      "auto": true
+    },
     {
       "titulo": "Montería, la capital cordobesa que encuentra su identidad a orillas del río Sinú",
       "medio": "diariodelsur.com.co",
@@ -14,6 +21,13 @@
       "medio": "LA RAZÓN.CO",
       "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZm45b3d2U2kwV3lVc08wcUVGX0Z6ZUtiQXZJeVo3SWVQVkpNOTVSMzFERzVET3FOQTVuMTdNcFVjSkJyeHBWQ3l6M2FLYTMtdTJCelczSTNsOFMtUXdzZEFzZTZJRVRvQ1MtdENYZXJ4ODdqT0w3YnZmMXE4anJGejJnVnNNeE1vcFZHTU03dU83X1dmaDZraThXZWN0OXhJVkpDa3FVc2VnaWRVdENWcTgxUWpNaG1nWUlrX05haGc1X3M2YmZR?oc=5",
       "fecha": "2026-11-21T20:00:53.000Z",
+      "auto": true
+    },
+    {
+      "titulo": "Identifican a mujer que murió arrollada por una volqueta en Montería; acompañante resultó herida",
+      "medio": "canalcampotv.com",
+      "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVWhJZTJURGktV3hrTWZFcEdjREVSb09SZlY0MW5YM2Z0bWxHWE51ZC0tSVd2MHFRM1lSUmY4TWZCTjZBVm5kUDFhRFlpOEJUQVZiY2NDWFBXcXhIRUtNaW03MTdhSDhYX2t2QkJDcVJzRzZiQkVfSlpGTVBYYThqRk5KcURBUUp1SS1tZ2RROEo1cUhIYURoQm1kcjg5VktMWWplQWVtcnB4TktXdmp3N18tN0k4V3pQTDFETjYxR3ZmX1lRRFMtZVIwUWk?oc=5",
+      "fecha": "2026-11-21T19:57:09.000Z",
       "auto": true
     },
     {
@@ -45,10 +59,24 @@
       "auto": true
     },
     {
+      "titulo": "¡Que siga la fiesta! Tropical Fest pone a bailar a Montería hoy y mañana en la Avenida Primera",
+      "medio": "Alcaldía de Montería",
+      "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbU1FM0I4SVhYTkk4Z1o0TXM2SjQwYThsNm5raGp4S0U4UzhId3E4YlI1YXVUUEJOYXRWSi1vN3owbzJMQ0dpUEZRQTdGVER2bWx4ZVNJMUp4dFZOVjhlYXFlMzBRREtJZU8zN1l0SnBfTEt5clNWSDlvcjNVZG02OGxTTVVtZGRsWUdSZldlZ3VqcnplZVVyMm1oTEZXWmFzcXpFd0VmckVoMjlNUi1CZmFiLURGQXNOeFpsX1dsQW96aEhiOHROMFlGY3hXVkJUdDJGN3FLQQ?oc=5",
+      "fecha": "2026-11-21T05:00:00.000Z",
+      "auto": true
+    },
+    {
       "titulo": "Activista de ‘El Tigre’ recibió corona fúnebre en su casa de Montería y teme por su seguridad",
       "medio": "Chica Noticias",
       "enlace": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5CaGVzTmppUjZrMlVnRWoxbXNJd0RDTnBzU1g4ZTlUSEpqYkIzcW8teWlLVWxnc2J2aG1BYklVOHVIblRxNkhlWlR1NmROTUdWZmNQYUFOVnZwRExyczBrd0pOUQ?oc=5",
       "fecha": "2026-11-21T02:09:14.000Z",
+      "auto": true
+    },
+    {
+      "titulo": "Con llamado a proyectar su riqueza al mundo cerró el III Congreso de Turismo de Experiencias en Córdoba",
+      "medio": "El Meridiano",
+      "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPTm1ObjBDa3hJMy1MSm12dVJwQnRuYnZHYmV0ZVd2REdoSmRaSkY5aURGZVRmWXBwbGhFQjNGYTdORFJZNUhJZWFUeV90d1pQT0k0QzJ1S0o2VHBkMXhINEtuTlp2NFJ4U1I3b1pOVHhCcHI4NURRV1ota0JycW9UUDkwNmdkZm1ZSURpVHpnczlHQS1oN1ZSbjFNVDJNZ0laelJyaW5YajFGcTBURUQwSkhybnZySVBUNnBVYk81Ymh2NF95MmZyaEtjV1dBT281OGJqcHlqaUxjaVZOYXNnVk5uWGs?oc=5",
+      "fecha": "2026-11-21T01:22:53.000Z",
       "auto": true
     },
     {
@@ -112,6 +140,13 @@
       "medio": "La Guía de Montería",
       "enlace": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBpUmRHbVloc1FVdGZNUmMweklWMGZrdVRsMlBlb0VIWnkycjlSMHhQUXAzLXQ1WVpQN3c2NTFUMFJNcDhYelNxU214blRHWk9aaFc5aFF2X1NaZGNWRk9Ic09nNGtQRFBuOUQxZDJLWERIOVo4RnItLVFR?oc=5",
       "fecha": "2026-11-20T13:22:47.000Z",
+      "auto": true
+    },
+    {
+      "titulo": "Montería empezó a gozarse sus Fiestas del Río con la imposición de bandas y el concierto de apertura",
+      "medio": "Alcaldía de Montería",
+      "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOcGN5TDZNUWhmOGIzVG10czBUTTZoVl8yY1h6X0VOdDhzcm10bTAzeDM1VG1aOF9lNFlNTmtBVDdHdVdZTVh2YzBwM083ZFc1VV9qR21iTlpINmxHNnUtdjZiazNBSzlLR0NtZ1R1ZmlwckN5RWxmSGNGbVE5R0o2VlgtOXBaSktpNVpOUWNLcmo4aF9tNTlLWmp2ZkZxU3gydnRnTVpQdV9NOUVMTzZSS29KQWJieEg1WXJWUUVDWkU2UC02c3l0SWhTMUwtUEo4LUE0Tmc3UkdjSUsyeWZNYWxn?oc=5",
+      "fecha": "2026-11-20T05:00:00.000Z",
       "auto": true
     },
     {
@@ -1015,41 +1050,6 @@
       "medio": "río noticias",
       "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVnZOUi15Y0lCQm9kMnpibDdYS2JBMDdzN1ZvYW9Yb1loZDVhZndmSWUycjhKTnhBak04OWJsTlJncHMwd0liOVlXaTk4X0RVZlpXQldydzlPelBreTNlSGVjZ3kyWEdQQ2lOYmJMNzRQZWpuZ21rcDFjOWJyQjNvSjRpYkZydXZBaXpzWGg3ZHRnZFZDeHBDamQ4UEZmQ0xlWGpZS0M2amMwWFZuc0w0NF9PR3YyRHlC0gG-AUFVX3lxTE5jZm9fdFFHdk9mR2N2RllZUkhDWUMxaE05SEVBVkE4NXBRcFZucmVnTXB2T2VsSG1SWU9Udy10dWx4cGw2Yy1DcHRRaEZiTExMNmVmSE8yQ012dG9uVTN5V1dnV3h2OXlkWFBlclUxSDIya1ZZQUZwMzBJS3o2NjI1UTRsd3dUaVJkWXl1aU85VUZTUWRocHdQN2p3OXB6RE14bDVHVDAxcm5kTXZmM0E2Z1N4c1Y0My1hT2Jncnc?oc=5",
       "fecha": "2026-11-07T19:59:19.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "Hasta el 30 de noviembre hay plazo en Montería para pagar impuestos atrasados con 70 % menos de intereses",
-      "medio": "LA RAZÓN.CO",
-      "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZXN5YlE1bFpTRGtITHlkNVZTQjJ2RUlweG1NSk9XZmcxV2R4STFRc3JBMlR2cllMR3R2VDhoUGppMWRPMUFvNXBfNjlHYnZxWF95LU5MeGlQQW53WDZMNVI4SEs0cWZwaEZMZHlCRUdxX0NRbXktZlFBQS1veUhnb192RFZyRDhPOVdzZnNQSzRIaW5EVE9iVUMzVU1NR18yZ0c4TEhLalkwWWdFZFZpMXdMMXNtOTd6dHdKVGkzcnk?oc=5",
-      "fecha": "2026-11-07T14:45:39.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "Tres de los diez mejores colegios públicos de Colombia son de Montería: Kilómetro 12, Mercedes Ábrego y Antonio Nariño",
-      "medio": "LA RAZÓN.CO",
-      "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNaG5lYUtGMUNNY2c1WloyVDF3MU4yNjRJbDFPNWRNZUg1WjZDaUZiT2F0Zi1ZMnMxNEpBamp1UHpYbkxReTZmeUNUYnhrYXFVVjNUdlJpLXNySV90SWI2WU1id2RzTm1rYnVxaUVkRjdnY0xHanBBSTljcVBnTXpPSW90ZzdDblJ3aUdiVjQ1RnVna1FRd3VWdlVZaVg1YjFxQjFkWkRsbDBBUHd2Yzl5a2tXREx0dzM2UDNoRExkYWNUVmVOdmRYaTVXc2tZMFh6VEE?oc=5",
-      "fecha": "2026-11-07T14:35:36.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "Policía fortalece la seguridad en la Ronda del Sinú, en Montería",
-      "medio": "Policía Nacional de Colombia",
-      "enlace": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVGFmSU9TNDBlazBRSENCalhDMkNNNThlS2lCWXkxZDdkdU5HcUtfUF9qQ09lS3hOS0pJeXluMjNqVGFMa3ppWG1jQUs1U1NBLWJaekhWWkwyUFdFT2hyMjh6alBnbC10Xzl2dVZuUEVnV0JnT1BWLUwxbHhoM0t0dzdtdEd5SGVHMndKVWpDTW12YXBCekN3?oc=5",
-      "fecha": "2026-11-07T13:46:42.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "Alcaldía de Montería ofrece descuentos en intereses de impuestos atrasados",
-      "medio": "El Meridiano",
-      "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaE5rT05ZRVN4SmFfN2hOamN1VGg1NnBlelJBNnRvMngzcDhVYVk3Qy1GRThzZ0RpQ0pFWklKWW5xUUpYSWdVbDhFV3FDZkNiSzU2U1hCYjllam5fMmVwR08xTldHSHA4cXQ0ckJiWHhfYXhyeFlERmNfdUtXOUUtZ2E0RTAzWF9OR3VGYmo2RDdlOXhtZW8xWC14NXNCeEdod09vMllhZzd1VV93amhkXzc5MTk4LWtGT2JwM2Zn?oc=5",
-      "fecha": "2026-11-07T13:26:02.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "El alcalde Hugo Kerguelén inauguró obras de recuperación del CDI de El Dorado, en el que se atienden 170 niños del occidente de Montería",
-      "medio": "Alcaldía de Montería",
-      "enlace": "https://news.google.com/rss/articles/CBMikAJBVV95cUxObk1IRTFCMDJHd19JY290b3RMb01ub2VJZW5WTXVCT1FpRkJhR0N6a1RBYlctZEFFbGxJWnhPMGtoS2RieGpLZFdSaGRPM3RfTW5QWXZhR09maUY4blp0TmkyellsQy1yZnhUUGQ5V0hvaGlMUDVFLTdnNDRKamNEZ3pUNExYWTJnT2MtNHB6d05PSlpPdnRTdW5NTkhvWmQ5WFJZOGpQa2hmWGZhTnNIRG1IWk82ZmtCSjc2eGNEUUlRQ1JLSjJNaTl1cFRtTnM0MnNxOW9sOVdPOGFnTkZwTWgwY1JWZDh6eWNVRi1fUml5Zjk3WTFuN0E3ZGpSMmZSSC1SYUFaa1pXWjZqdWR1LQ?oc=5",
-      "fecha": "2026-11-07T05:00:00.000Z",
       "auto": true
     }
   ]
