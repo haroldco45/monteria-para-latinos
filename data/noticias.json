@@ -1,6 +1,6 @@
 {
-  "revisado": "2026-11-25T04:06:32.710Z",
-  "actualizado": "2026-11-25T04:06:32.710Z",
+  "revisado": "2026-11-25T14:15:28.531Z",
+  "actualizado": "2026-11-25T14:15:28.531Z",
   "noticias": [
     {
       "titulo": "Representante del sector Los Cedros, de Montería, fue elegida reina de la Policía en las Fiestas del Río",
@@ -42,6 +42,13 @@
       "medio": "Chica Noticias",
       "enlace": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5oYTNJb09sX29GUDh3d0pLckdEU0dUWUVmSVhJNHpDX1lmRFBFU0RjNTdWUnotRTJQa2VJVm5rTTVBT3NSYWF2aHlybENEZjJNdzh6dkNLeUZxYTQ1UVI5X0FramhWUGlKbE5hQmJkY0RXS0xV?oc=5",
       "fecha": "2026-11-24T20:20:39.000Z",
+      "auto": true
+    },
+    {
+      "titulo": "Capturan en Montería a un adolescente por porte ilegal de arma traumática",
+      "medio": "ELHERALDO.CO",
+      "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbG04aWpTZGw0WklLR3M3TXJ4OVFsV2JFRnhTMlh2d2VSWG9pNF9YOVpWQjhpbDI0ZVlRTmE4THBWTWdjMlZlRjVFYXJyQW9hc0FsajE5d1l5dGdQQklZT0k1U0pwUDVRQUJ2dEpLYWtVNjVPVV95QWtKSVd3LUMyMnFTVmtSZTUwZDkwTTctaTBwS2lhcE14WXZTX0FKVFFRM01HeE5JSnpxY3g3TmVqY1RkUEhldEEwRnlMdVN3SHc5UEhLNlBoakVYbVJqUXdtR0VTNWZB?oc=5",
+      "fecha": "2026-11-24T18:36:11.000Z",
       "auto": true
     },
     {
@@ -91,6 +98,13 @@
       "medio": "ELHERALDO.CO",
       "enlace": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQeFV5eDdkWGJHaWExLUNWNzIyajRzTHFaenRQdXJxY3JTdjlsRndVM3hpdHB6blBQN2lGU0d3aHo0bEl0Tm40MlA4VnctUGNyUVZnVDdpaUMwT3ljVEw4RFNuUHpFM01pRTliX2FsTExUeWZFam9FS3hfWFpBNGdIaEZPaFBIZlFUZ0l0RnJGaDNWeDlCMUJKOWFRU3hVbi1fNUNZRVJSRTVqVWJrQzZtcVFFZnUzQ1VCVU5vaUpoSTZaazVnV1VYeEdDTVBBanYtZEx0enIxSEJ3aUFnRS1ZTUF2UFhTaDlHTF9zTklJWjZtbUVRUllTdjIwVTZYTkxkZF9GYg?oc=5",
       "fecha": "2026-11-24T11:22:18.000Z",
+      "auto": true
+    },
+    {
+      "titulo": "“No podemos permitir que el miedo se tome nuestro día a día”: gobernador de Córdoba sobre el Meta",
+      "medio": "Caracol Radio",
+      "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZExlSDRNRVJFYjNqMmpNNk1hX3MxTkphaGc5MXlia1lYQUp4VUs3bk1jN2FfT1BPMmJvYk04QlJoV3ROVWwzV2w4LTgtNmVTSG0zWWFVSFUtbUJ6RkxTNjluTTdWSHI4WGxJR081SzdDOTNzeVc1SzRUMjYwQ2NBd1lEY2ItRDBqSUNTZmxJR1RxNlV0dG5NWDlqT0xaVnc0OFY1Z1V5Qlg5TWktVWdHU0RwY1F0OFVxdHhTM3hkcS0zR2prT2pyWdIB3AFBVV95cUxQbEc2Z2hEZHRvVTMtblk2azYyZUhISWhRN2dSVVBfZnFtOFpWSUs1ZGlNRG8ybW9NQ29MY2JBN29Xa01YUkhnM0JmREpTdDZ5M1gxazAxbzFTRmxLQTJiVGZSaUtLVHVjN0VkRU91aWt1dDFpRXA1NGg0TzJhRW9Sb3lKZmJoNUljQmF4TVNFMG55NXlrYTY1Tk0ybjNKYmllOGlNYk5BWnZHRkFGOHBqMWNMM2I0TjZOTUttSlJvVm56MHJsSzVlSi1vaUEySEdITHhCNHMtcy1EN3N2?oc=5",
+      "fecha": "2026-11-24T11:19:00.000Z",
       "auto": true
     },
     {
@@ -175,6 +189,13 @@
       "medio": "río noticias",
       "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMUo3QXZ2aVZGUWlfcTV3SldnTHNaYUh0aEVIQVZMOUh2eDVYdjdrd0FBWFc0RDl3M2dJUThNbFU1dmtSQWRIWmdMZllyd2lYLUVJTmFJMUY4RHc0TGVHck5vdlpJZG14ZXpyNHVpYWhQZ2hRUzVDTVVLYzJLdk12U1ZUejZYV2FiS1AtSUtIeFFvd2cxczdmTzM5MHZEekg1Umw5Z2JaZDRURlVPNFdPcFNkSdIBuAFBVV95cUxPRzdCeVZERDVXWjk0TFVjSFQzMmwtRzBpeUFzRllNRFpHY3N3N1FHamNKTU9qVm4zZlB2ZVNEZDFCN2VHSlNnVVRQNXFMZFRJbWY5c3NpNjZXYTBlWW1za0s0dGcxcU9aMUUzNlAwM0FONWxLODl1OUZrQTJTREZmT2hmQnlycEdZUWpLM29uOUhJYnBoUEh4ODVLM2t2LTlWX0VhMnd2MUZ6ZGlPRExxOTJFTm9KOGNM?oc=5",
       "fecha": "2026-11-23T21:36:28.000Z",
+      "auto": true
+    },
+    {
+      "titulo": "Royal Enfield fortalece su presencia en Córdoba con nueva sede en Montería",
+      "medio": "La Revista De Motos",
+      "enlace": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY1ZrRDkzOW9xUWVhSld2LW42Z082ZUlvUlA5aVBXVlk3eWpUWXV1Y091ck5FNTBCTTZFeDBXQWp5cDE1ejZEOXFRN2xNN2NaWEt5X095akJtOWpLaVN5MlNxYWNKV3B4Z3NvVmlZaEYtX2VaSkJzeEgtazBMbEZERmc2RlJ3WVBXOG56R0VxTQ?oc=5",
+      "fecha": "2026-11-23T20:36:54.000Z",
       "auto": true
     },
     {
@@ -1029,27 +1050,6 @@
       "medio": "Chica Noticias",
       "enlace": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAtdHNOQ0ZQNWRUbFJMTG54ejdITVVDcFR2d1YwQjk2OENKekxxN1poNlA2VW1JTjltb2hSSm0zYzJLS2NPMEU1Q2lvSXhGQ3pQMlpQNWp1MjVrUDFadXJtUFRHOA?oc=5",
       "fecha": "2026-11-14T20:19:12.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "Capturan en Montería a alias Pata de Palo, segundo cabecilla de estructura del Clan del Golfo",
-      "medio": "Revista Semana",
-      "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVXNwcWc3TlhFUVQtYy1EWXVsTEMzRDBOUkV1WHp6azA4dkVSdWg4RE40b2l2V2VwRkNyN2NGeWFIMkMxVDZSczVnV1d1NWxWSXdnd3lXN0N4NDhlR2hEc1RmMV8yYUFGRW5jM1pSRXJPWW5GVl9YMlJkcTBoWU13NERSeG5McFBCZnkwaWh5ZHFpcGNsZHhEWEVXV3p6T1JzeHhld0ptSlhlMDh1ei1TTGJrd0c1bTQtUHJ1ZWJMb2ZPZ25ra21TRmtzRXZkZHZDakpXZURR?oc=5",
-      "fecha": "2026-11-14T19:57:15.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "Niño sorprende al presidente en Montería al pedirle trabajo para su papá durante inauguración de escenario deportivo",
-      "medio": "Diario La Libertad",
-      "enlace": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPd3lBd1BpVXctNnFHYVI5T0Rnby1iOUNGQXhwWFZjNDYxZFR0bzFpNHRKUVZlbjRETFJmMW1nNkNmUUtkZk42YWotZFRNaVNxSFVYUTBidTBOWlZMd0h0b2N1cTJUc2stZF8xVHFMdlhNU2VHQXNITjhSekFEaDlaQ0d5RUJBNmtqaGt5UmR1Qzc4TV9PS3lSbWZ3Sko4TFlaTUo1U1duRzhmbjhiLWcteGhuZVhla0oyOE9FVXFOOXlQVXlIZkVBTkZVUHZpYVRlUW9oV09haWZVTkpERFA4eDgxeHgzNk92VDNwVktB?oc=5",
-      "fecha": "2026-11-14T19:31:07.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "“Será el primero del Caribe”: Erasmo Zuleta destaca nuevo Centro de Alto Rendimiento en Montería",
-      "medio": "Chica Noticias",
-      "enlace": "https://news.google.com/rss/articles/CBMiakFVX3lxTE01SkxqeHZYMjFsNEx6dzlkQU9qdDhiSTV3MFRqUFpWbnJSVWhaTXMyVkcyMjRwdVBVVXgxdjVveU4ycEdQREhlcjh1cTltbW5ZU1JMWmphN0dsWk1tVFV3bHMxbWgwTGo1LUE?oc=5",
-      "fecha": "2026-11-14T18:04:58.000Z",
       "auto": true
     }
   ]
