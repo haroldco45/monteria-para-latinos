@@ -1,7 +1,14 @@
 {
-  "revisado": "2026-11-27T00:31:58.778Z",
-  "actualizado": "2026-11-27T00:31:58.778Z",
+  "revisado": "2026-11-27T09:00:28.769Z",
+  "actualizado": "2026-11-27T09:00:28.769Z",
   "noticias": [
+    {
+      "titulo": "Royal Enfield llega a Montería: nueva sede impulsa la pasión por las motos en Córdoba",
+      "medio": "SoyMotero",
+      "enlace": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBFc0pIaTNyclhiZ2NscEFvQ24zemt3UGVvU1E2WkJUOTZ2ZER5UVY0RFhRWnZWRC1XXzJxSmE0Y3lNZFlmSUJFbnB2U1I2dVFiN2tVc3BPYl9TdDZuRzVQM0tIVkcxOFdmTGRTOVB4LXVrZFFWVTZReQ?oc=5",
+      "fecha": "2026-11-27T02:06:16.000Z",
+      "auto": true
+    },
     {
       "titulo": "Montería suma recursos internacionales para su drenaje urbano y logra entrar en la agenda del Tren Caribe",
       "medio": "Chica Noticias",
@@ -84,6 +91,13 @@
       "medio": "Caracol Radio",
       "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObks0TTFiM0NjVkJFWS0tejZCNVAzV2c0QV9GTTFtUld3X3M0X2FneGhxV2pxOW8xdmdJZUo3NVJ1Y0JaX1NsZDJyMmt0UUxmTm5aZHlXSHdyRHJPR1ZldmdvUm04X0o1SHZTaDRrY2dCZGRqYWxsQUlJTVBYcTNHaURFYzF0b193RlhIdDZOaVF0T1RTVThkLVhYR1pwYzRxclVTR2g2cGNFdkl2WnVYd294TVVVQkVCd3NTbHNmSUFja216OFHSAdoBQVVfeXFMT3UzdUk2OS03d21TSXc3ZmxTT2RXMkdYeVZJMThrSW5xa1lIN3RxU25tdnNVRHdPa0tyTDA2VDROQldIUzlxemNtNFJVSjhiakJBMHBKV3R1MHhrZDktWVB0MjFPNGNNZk8xenRiRzJQY2pTZzVRVVIxMkplX0pxLUdLM3lQeDlBTmlPUDdqQ0FOb2wwdkp3UVk1QmhyaW1fQk5Lek01QlBKeDdXQXBQZUNBOFNBLXF0QzFEUk9xYzhyeUhfeEhZT3VVSVJhWGhnZFdfZGFmeTJWcUE?oc=5",
       "fecha": "2026-11-26T00:32:01.000Z",
+      "auto": true
+    },
+    {
+      "titulo": "UPB abre en Montería maestría en Regeneración Ambiental",
+      "medio": "LA RAZÓN.CO",
+      "enlace": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeThybnlhNHQtNVJtNzZhUHBLaDlFT0ZZRlpBWWlCMVNuM2JQSGJJNjhZUUVlMTBmbnVBVEtPYWFndzRpOG5zNFJDa0ZibjNNZ3FzUDVQYy1ZM005VmZlVkNJdHRCT2FHQzAwVTZTMHNTRlZGZUZqMWlkMS1XcXUxcg?oc=5",
+      "fecha": "2026-11-25T22:59:03.000Z",
       "auto": true
     },
     {
@@ -836,6 +850,13 @@
       "auto": true
     },
     {
+      "titulo": "Montería pondrá a navegar su transporte fluvial sobre el río Sinú la primera semana de diciembre",
+      "medio": "LA RAZÓN.CO",
+      "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOa3hIYTc3c3oyajRWUG1POVliVklPNHdOeTJ2bmEzRWJSVEtfWFAwTU1zQkVmbVhnWGxnU2hZVGl1ejJuYkwtdkdfSm5HUlJUM0xRa2toZmZqeXRWdl96QjFveXBnYUwzTWJwN1Y0RkdoQnVKd1JZaWZTb0RvWFFpUXJZU0RpbzliZk1wNVdjR0lNREtGaVJOOTFMRHVOV2haNWJMSEN6QzlHUzVyVmRQZENQM3FSR2M?oc=5",
+      "fecha": "2026-11-19T01:29:25.000Z",
+      "auto": true
+    },
+    {
       "titulo": "¡ATENCIÓN! Anuncian cierres viales por las Fiestas del Río en Montería",
       "medio": "Chica Noticias",
       "enlace": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1vRVZkV3BvX0JfN3BDYW1WOGNtMjlYSi1BSEE0LWNoSlFuUnh2V1pIVXljVWgyWFFXSFl6bVJ1ZXlFdjBrci1qazJxdGh1RE9Xb3BGdzAtUWt5WEVVeEhmejk4aXE2ZFcx?oc=5",
@@ -1029,27 +1050,6 @@
       "medio": "Caracol Radio",
       "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVUlNWnBDZ18xQjJYVEYyZkNQTGU4VDkyNTVuSU41eUNTSmk4SjRSOHprclhoMG5kWEV6UkdxQjJWWE8yXzNjLWJSdmVHR2V3VURvRUFEQ1BOWmM4NHV3bThWRFJSN2VENXNGcUN0SWU4M0N3cHdwRnE3TWxsT0tPSGNyTE9ycHZpY3dOLW5sd2x6WkV5NklSS0lpaHR5WW1IbWxCN0JBVjk0bGpTUDB2T09qUzlNMklGVW1QTlpCaGFkNkMxaDhwVFgzUUhxVlnSAeMBQVVfeXFMT2ZUcHBiSHdNdEJvUW16djQ0cGZOMXdiaDhhTEp2SkVzcUJrU1N2UFRNbVMtNWhjcWtNSU52bUlZaXhIUmt0RWlpSHRrdzdkQWVJNG9BaEpoc05WaWJVR3IyMjRzNHZ6ckpFYTYyQm5JOWdNeUZleVdVeHBNQy1ZQkhQbTZuLXlCNG9wWjV0RFUxNDBPalBmSFhPZUREdmVkVjFkakdZeG42R0RtUGRDRUdCNnRSZmJaNV8yaDhQZ3B3WWI4UE90eExqUnBDcTNsdzV1TkpPR2R6elRuZ1NTdEtmM28?oc=5",
       "fecha": "2026-11-16T22:15:21.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "Gobernador Erasmo Zuleta anuncia que el presidente financiará la pista de BMX de Montería",
-      "medio": "LA RAZÓN.CO",
-      "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObDRMVzZSY1lGQW9CYTlZQ19YYThlUkxma1lMTEo2QlU0RUV0eXBQYkttM1hROWhSaVJPSlRqNjBObmR5MjBwdlFvYU5iTUNINldwT09sMWRRU0Nfc2RPTDc5QUFJdVhuRENHUlZTcmJ0WE1URlAxVDF6QkZ3dFhRM0JyTVNLSUFYdnE4WERyT25KNnVNUThkTTdmOHkxWEU2eTJTZ0JQN2xOWmQ1YlE?oc=5",
-      "fecha": "2026-11-16T21:42:00.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "Janer del Toro, joven de 24 años, murió en hechos violentos en zona rural de Buenavista, Córdoba",
-      "medio": "Chica Noticias",
-      "enlace": "https://news.google.com/rss/articles/CBMidkFVX3lxTE82VVVfUFVUOHNjRTh2ek10bVRtdXEwR3NGTy1SVlJTOHVKc1c4YjdROWU5MklNYXVKNllKekFSNlVkYUFfZDhMc3VmNEpaTG1Sc2hBZUlYWVU2a09rNVVVbDNKeVNzSXpWNWlwWi1NV3JQNkZQRnc?oc=5",
-      "fecha": "2026-11-16T20:18:05.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "Mercado de los cuatro patios de Montería tendrá inversión de 28.000 millones de pesos",
-      "medio": "LA RAZÓN.CO",
-      "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTnZqM0lOYzl3TXhuVUtJVG5ETGtFT3llNFV5RHpENkxNZFBYVXFaQkVyWDdzVXdVTWFZVFMxb0I3TnNtOHVzdmdtMkZYSFBKSzlxV2tEanF0UnNielhWXzhHM0RwbmJPNUhkS2hvX3ZmSkRCNW9ITDJubjhmOVNvVXFNaDhDeVgyQi1kV25leUZSR1piMzZtN0ZLYUczY1BxTi1LeFFXd0I?oc=5",
-      "fecha": "2026-11-16T16:47:39.000Z",
       "auto": true
     }
   ]
