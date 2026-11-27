@@ -1,7 +1,49 @@
 {
-  "revisado": "2026-11-26T15:44:04.526Z",
-  "actualizado": "2026-11-26T15:44:04.526Z",
+  "revisado": "2026-11-27T00:31:58.778Z",
+  "actualizado": "2026-11-27T00:31:58.778Z",
   "noticias": [
+    {
+      "titulo": "Montería suma recursos internacionales para su drenaje urbano y logra entrar en la agenda del Tren Caribe",
+      "medio": "Chica Noticias",
+      "enlace": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5XS2Rkd3lpWWxJcnZuSkN1VHBmNUZ0MXFBMjFzek5NZnFKOUJ3U2JlRFRCN1BQTzdaMC14MFVYNkQ2U01FcXNFNm9vUWJaUkxKODM0X1hOSEV6ZXpXd0hiV1NMcXo0eE80V2dR?oc=5",
+      "fecha": "2026-11-26T22:47:52.000Z",
+      "auto": true
+    },
+    {
+      "titulo": "Las Fiestas del Río: entre las subiendas de pescado que recobran la memoria monteriana",
+      "medio": "Radio Nacional de Colombia",
+      "enlace": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBHNnVYa202dzhNWll0YUZ3eGxtMFZEcFd2WmlkelZJTWZGaGdEcGJyMFczcFBrNHk4OXdQUVhTM1BiS0MtQlp3US1fZkJiVl9obGZ1NFc4Q2FEbzJFbV9oUC1RYksyZUtWSXpUbXNuNA?oc=5",
+      "fecha": "2026-11-26T20:35:44.000Z",
+      "auto": true
+    },
+    {
+      "titulo": "Cinco comunidades rurales de Montería están más cerca de tener agua potable en sus hogares",
+      "medio": "Chica Noticias",
+      "enlace": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1DMXBYME9rYzdFT1JxWEFwbjBLaGZ6MlRGMjFmNkxZS0t5c1RMSXltWVVyTTZqRUlSTnhtUmVkMGdVNXlOelNIRFc4dEh2YWp4dmV2LWpRem5KWjVjZ2w1TE8zcThtZGw0RERDNFpuUzA2cFFaWkw0ZTBXZw?oc=5",
+      "fecha": "2026-11-26T20:23:12.000Z",
+      "auto": true
+    },
+    {
+      "titulo": "Montería declara días cívicos este jueves 26 y viernes 27 de noviembre por las Fiestas del Río",
+      "medio": "río noticias",
+      "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZkh1LVY4a3BmbzAycU1XWU9mdEc0MGdkdllrclVSWUhsSnhpRnZ0REZsU0FkYzFWVkhHbW0xQ0xJamYxZDVLck1xUlZKVm16OUctWm9TZnlwMlA3TFRnVHZkekJEZXQyNHJrVmhsRURqXzljdXA5a3BRV3BGTXVYMFd4SWZFYnZyQTEzczRBXzZBNDZ6OWZLSHFQSUlGMFJsR05iZ3VmdE5BQXZHaDhSdGRxSEtNOE9SLXfSAb8BQVVfeXFMTVVXd2xwbEJ4ZTJmMERUaWtvaWVjTXdYS3hRRnZhcXc0aDBJRWtCSXlrVGowOHZadmlidFFoMFhVVDBVQVBWZ2dEY3MtSEV0WE1IMC04dHYwUUFsdHFwLWVuT2l1eERxMVJRQUJsdUFCbGFxQmZwd3piWldWTTRsM1BDU1FTaUlMa1RoclRvSWRpWElsOWpMWWpQTGFaSENwS2oyejBTa3VLeEVObzBYUW9CaVlmVVhTeUEtRlNFb3c?oc=5",
+      "fecha": "2026-11-26T20:22:42.000Z",
+      "auto": true
+    },
+    {
+      "titulo": "¡NAVIDAD SOBRE RUEDAS! Montería encenderá la Navidad con ciclopaseo este 1 de diciembre",
+      "medio": "Chica Noticias",
+      "enlace": "https://news.google.com/rss/articles/CBMibEFVX3lxTE04Nm9ocy15eW00eklmOUVlcUlCSTM5amlJcGpvTHJyczNWTGRyMldvU2d3V3lUVjg3ZGpqMGhSZDI5OUFOWk91QXZGT2hpZ3FIeFlxR0pBbURBR1JzN3N1X1owRUoxWWRGRnhlWA?oc=5",
+      "fecha": "2026-11-26T19:18:40.000Z",
+      "auto": true
+    },
+    {
+      "titulo": "Por Desfile de Comparsas de las Fiestas del Río habrá cierres viales en Montería desde la 1:00 p. m. de este jueves",
+      "medio": "ELHERALDO.CO",
+      "enlace": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNamxlNnE5ZS05aWJoMVBDQUp6c0F5cXAzUzVMMDhzSnE1RDJxUDhMQVJiNElud1hsYmxlOHgxWXk4eTN0cE1CMDR6ckJQUzcyd3RFWVVGUTFuencwQ1ctczJwbE1YNHRKMmQzdmpWc3JObnZHYmZ2a0wzd3ZQNXdlSExlcFY4ZFNhS0lmYTlTSjNaMnBGZ2E3TTV4ODhfbDdqZlo1YUlaUjZMa2lQUTlwM2lOSWVsYWdBUGxEbk1VTk9pWnpqVEVSY1pZNGtsNXp1SzFwSVpCMUIwR2JwZDlxcXVWOS1qMDQ1TW9zcUV5OFNEMUtITWU2Ti1YVzR3QTFOYXZNU00yVG1RQQ?oc=5",
+      "fecha": "2026-11-26T18:51:26.000Z",
+      "auto": true
+    },
     {
       "titulo": "¡Montería está de fiesta y con días cívicos! Desfile de Comparsas y concierto gratis",
       "medio": "Alerta",
@@ -10,10 +52,31 @@
       "auto": true
     },
     {
+      "titulo": "¡POR LA CONQUISTA DE LA SABANA! Vaqueros de Montería abre su temporada ante Toros de Sincelejo",
+      "medio": "Chica Noticias",
+      "enlace": "https://news.google.com/rss/articles/CBMibkFVX3lxTE84UjQxWHZuRkNaYmVvZS1KWWNiZTdLcnlaVHQ0VVAycGR5YXpFYlE3TGt5NU5ZTG44T3oyVE92T0lIaDkwdGVNMzlXUk9nbmZvVG9mVFF2eEFWMXdiaFFlT0cxajRHUUVOQkZvVDR3?oc=5",
+      "fecha": "2026-11-26T15:05:56.000Z",
+      "auto": true
+    },
+    {
+      "titulo": "Declaran cívicos los días 26 y 27 de noviembre en Montería por las Fiestas del Río",
+      "medio": "Caracol Radio",
+      "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQ2NkUnJfS1BXc0JUd1VRZmd0WHNfQWJvLVhHRnB3RnhfZ1ppM3FBclJhYVlwOGdDMTZNODU0cmp2S01aZFJJcXZoQmhaX3BuUVZGaUpoYUJicFFKYk5hWTkxS0RmdWlXSlZQVVpaWjJobDVuSWV4RTktMklQWTk5ZDh1RmlzSV9NV0MwQVNDcHczMkJuMktIb2VvS3lSSkppQXBkOXFwVngxd3RZRmN4R1NCOU5LZXpf0gHMAUFVX3lxTE9odEhVa09ucEMxSkpFZUM2dG9PY0Z1Sm9HMTNuQWpfcmpKb2VnYnBFbnVBVTFPQmFKSV9tX2k5Mk1JSENULWRzYkd6d2pteUYwUng1Wm9nZTF5WUtKQUx3WmNXbUE1Ui1iM2ZSclh5Zk1PMG1qbmU2VVZjTW1TanZiWnlYdnFfRENQU0tKbUs0SnppQ0JoWlhJQ1RSQmctb29PQno2QzhVSkZqdFI3Vzl4Mk05cHVQcG1jbGllTFRwNDN5amNYSGpvZTJKNg?oc=5",
+      "fecha": "2026-11-26T14:54:07.000Z",
+      "auto": true
+    },
+    {
       "titulo": "Montería declara días cívicos el 26 y 27 de noviembre por las Fiestas del Río 2026",
       "medio": "El Meridiano",
       "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYW1sa3Nfb3dZSjNkajlZZS1CdHpJVFFaZER5QVpIMWM5emxFRjBFUm5jQ1B1RzJ1YmFSUG5RcVNfRFh5azAwWnFseS1oT1V1NThvUGtmWVNoYTE2SUVNRlkwdmo1d1pRSFh5Zi1HTXJXWWJfa0JXaGVTNmJXaF80eVVIS3JwMS1ON1kzelZ0dWlzMy1KSmRGRV8zdUl2TlBRYjlOSWhpQklvSDlIaWJLdnY1MmZUNnVvUzliQWFUZXhrUnJoZW5UMw?oc=5",
       "fecha": "2026-11-26T13:32:56.000Z",
+      "auto": true
+    },
+    {
+      "titulo": "Alcalde Hugo Kerguelén logra que Montería se integre al Tren Caribe y anuncia un aporte de €250.000 de GIZ para los estudios de drenaje de Monteverde",
+      "medio": "Alcaldía de Montería",
+      "enlace": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPMGk1ZXA0YWNjWXdEUG9XOEttMVFwMDNXUzVxb3JNYjdTeHpxYVFjUHA5c3ctU1VrQjhuM0h5TUJ0OHVhTjhzTW50U0tfU0V4ZEUwaDA5a2IyMmZEVW1leUFTYnpGVDdvYmQ1OGwtVjlncmtCQkxwZjVPUnZvcFpNMDQ2X0RIUTY4d0ozdF9zWUZmTnNqVnRIWlUtbE5TdWFSS19mYVZVaEpId3Ftekk4UGFMeVRLUDZ4NjRYNE9VYTlMTUl0ODdweEdHcGEyZGxRaGFCZHlZckV0R01zNjNEdkhncEhCSUc3eWRtWk15cjB1aUdySjR4ci0zVF9SaEpGbDk5bEtWM1hMZ1hENXllVVBCQndlQmxwb250UFlnU1VwM3h2?oc=5",
+      "fecha": "2026-11-26T05:00:00.000Z",
       "auto": true
     },
     {
@@ -63,6 +126,27 @@
       "medio": "LaRepublica.co",
       "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVXhWT2dPU3p4QXZ6US1FUGF4N0dRdmFGLTJVdVppQkwtN3lYZWVhaEJrdm54Rmo5UXBhMGtBc0lYMF9hc2hMa1V6RkZaOFRWZDE3eDdkTk9BS2gtSzA4UWpiU2o5V0U2MzNEa3JWempyLVZFNGtrNExRLXJxOW14Q1FqR0lybjBZdy14YlNwR01Pa1NYeWw5VVJrQ3NZNTQxZ1BMV25IVVVZNTAyQWk2OEhlUUw4TEp6dVVF0gG7AUFVX3lxTE9VeFZPZ09TenhBdnpRLUVQYXg3R1F2YUYtMlV1WmlCTC03eVhlZWFoQmt2bnhGajlRcGEwa0FzSVgwX2FzaExrVXpGRlo4VFZkMTd4N2ROT0FLaC1LMDhRamJTajlXRTYzM0RrclZ6anItVkU0a2s0TFEtcnE5bXhDUWpHSXJuMFl3LXhiU3BHTU9rU1h5bDlVUmtDc1k1NDFnUExXbkhVVVk1MDJBaTY4SGVRTDhMSnp1VUU?oc=5",
       "fecha": "2026-11-25T16:15:58.000Z",
+      "auto": true
+    },
+    {
+      "titulo": "Montería declara días cívicos el 26 y 27 de noviembre por las Fiestas del Río y mantiene la atención al público",
+      "medio": "Alcaldía de Montería",
+      "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPQXNxTG83Z3J1ZGhPMm5VNkdYeHpXbkxodl9UQ0FQS0ZRNmZIa3o2NFlId2FzbjEtMlprRTdjUmNvX1RoVzFwTHlqV09WQUZMRnFiNFVHSklqQkl2VGhZc1FKT1dGQWpaWGFLWkNfWTh3LVF1cjZ5d0dIUmZVTG1Kcm9jOWNiOTJDLXhLMHp6SUplODFNQTNTeUNMZlZrRWRmbm9OZ0xGY21XTEprVThvYk5SenhnS3ZaV3plaFVXQ3Zqa29aSno4NmlPU190RGl1VF9XaW9rLW5OZWdHYlNHc1g5X3ljZEZCaS1XaVM4cDc?oc=5",
+      "fecha": "2026-11-25T05:00:00.000Z",
+      "auto": true
+    },
+    {
+      "titulo": "Alcalde Hugo Kerguelén lideró Consejo de Seguridad para reforzar las medidas preventivas en Montería",
+      "medio": "Alcaldía de Montería",
+      "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQY09UOWtrcmVibGRpYlJQSUZZc0JHN20xZkpyTmxEMmVZTDZNWjJWNlZXNFd5MXlXRF9VZGlZSkNNNGxBUGFmOFJZbGZOaVQ4eHVmSHYwLTY3Z0F4R1c1ajJIRVN1ZFN0c3NEV0ZUWm05MUwtMUVka05Wdl9KU0xjWV9IX3lLSUVuY21DS2poZjdDS09MVG9VQ0FvQVZORlFSTHBHRmowZk5fY2hrZUVFcnktVFJPUDlFa012NHNJZ2pvYkI2V21QMU5kWGVFWUY0WnNIX0xXcUQxWk1Obm9NazFR?oc=5",
+      "fecha": "2026-11-25T05:00:00.000Z",
+      "auto": true
+    },
+    {
+      "titulo": "Comenzaron las jornadas académicas de las Fiestas del Río 2026, este miércoles sigue la actividad en el teatrino de la Ronda del Sinú Centro",
+      "medio": "Alcaldía de Montería",
+      "enlace": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNWnhHUTlERDY1NkcyZEE3VG82M2hDX1hpMEFuTThlS0o4U19MME40ZmZPby1wN19IQkE3TjA1OGl1RUQ0cF9WQnBOQmdieTdmNTFlOXBBNkpUNng0RTNaV0p0SDBOYzh3RTc1ekNPLTR5Wm5hZG9vcTJXaDAyWm85S1gzeF9jRVAwdmVxejBTZzZ6VkJQTExpaC1IU000R0UtamVPRERzelVPd2s0bHAyS2xFZVNEdHRvdThiQ3h2SWF6UGQ2NkRIQ0NjZXRvQUNxeHpMZXgwcHEtbl9GRm5uMEg5VGIwckd4X21NeGJVdmFLUUNnbmpZRS1hRnNVem1PTXMwT1pYdWpVQUlUaEszbVhPQjJOZw?oc=5",
+      "fecha": "2026-11-25T05:00:00.000Z",
       "auto": true
     },
     {
@@ -966,90 +1050,6 @@
       "medio": "LA RAZÓN.CO",
       "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTnZqM0lOYzl3TXhuVUtJVG5ETGtFT3llNFV5RHpENkxNZFBYVXFaQkVyWDdzVXdVTWFZVFMxb0I3TnNtOHVzdmdtMkZYSFBKSzlxV2tEanF0UnNielhWXzhHM0RwbmJPNUhkS2hvX3ZmSkRCNW9ITDJubjhmOVNvVXFNaDhDeVgyQi1kV25leUZSR1piMzZtN0ZLYUczY1BxTi1LeFFXd0I?oc=5",
       "fecha": "2026-11-16T16:47:39.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "En Montería inauguraron el Coliseo de Halterofilia",
-      "medio": "ELHERALDO.CO",
-      "enlace": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWHNveUZXNjF4Y2RFMk12OFp6UVNGdS1jN0t3cFVUQ0ppREFtMzB5SjJmbDFUcHB1TXkycV8yU1dzLWQ1a2QzMHBJU1o0MTR3TzdLT0s5aWREczdwUnVVMmEtSFZHRFZQQU5rNWdwUU5jTThnU2ZnR3MtMkdZREt3SzdtUGdDMFRJeGFhVTJYVjdoemxtd28yX0RzV0I?oc=5",
-      "fecha": "2026-11-16T15:49:40.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "¡Cayó uno de los más buscados! Capturan a alias ‘Pata de Palo’ en Montería",
-      "medio": "Diario del Sur",
-      "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeWV6UWpFNTlLdUJmODdud3ZFVlZ4R21OQUd5OEYxa29vclFBaGdjVEJDZE5mWklmN1hPRnQtQ093YnNXWUJrc1JEbUJKNWpTU0RFTUMtM1QxTGZkallKVEo2c1dxX21ZTUpGSmc0c2t1RUw1Rzh4TnJNZm5uUFVHel91a3NVLVdWS0NLZG5YWmlITF9mODhOOGt4RF9JNG1yR0xjMTF3cUV4QQ?oc=5",
-      "fecha": "2026-11-16T15:12:40.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "Montería pondrá a navegar su transporte fluvial sobre el río Sinú la primera semana de diciembre",
-      "medio": "LA RAZÓN.CO",
-      "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOa3hIYTc3c3oyajRWUG1POVliVklPNHdOeTJ2bmEzRWJSVEtfWFAwTU1zQkVmbVhnWGxnU2hZVGl1ejJuYkwtdkdfSm5HUlJUM0xRa2toZmZqeXRWdl96QjFveXBnYUwzTWJwN1Y0RkdoQnVKd1JZaWZTb0RvWFFpUXJZU0RpbzliZk1wNVdjR0lNREtGaVJOOTFMRHVOV2haNWJMSEN6QzlHUzVyVmRQZENQM3FSR2M?oc=5",
-      "fecha": "2026-11-16T14:54:18.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "¡Cayó tras 23 años de carrera criminal! Capturan a alias ‘Pata de Palo’ en Córdoba y advierten posible extradición a EE. UU.",
-      "medio": "Alerta",
-      "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdzd0OC13SDE1TFFFVER2ZjJMTWYwZ1VVVW16V3FWWlhiUFp1NWpkd3lxQm8taVF1ZHhJY1oxOXRLVl80WVVIMkhjUzJ6UVQ5ajNGV3I4ZmxnZms0c3NoS2kyWXROWjYyRlo4LU9PUVFsM29OMTdKRXlITFYwMGVDamtBd010ckRoajhWbkp3eW42OS1uMEYtTHVESzk1Ulc1TzNLMUt5MnjSAagBQVVfeXFMTkV5NVVFRVYxX2E5c0ZGanFkMG50NmtPV19zN0wwdGFTa3BBOEgtZ3ZCNlpaZ0hkSjBFSzRDOEJfbjdGUWdBZUxFelhjT3NiUlY3bUl3T2pzbWdVNVAxSmFhVnVTX1dtSGpfTXB1d3EwbGNYTkRwa2NzNUpoRnZLWHgwUU15dzlUUUJCU1h3alBlaURHTmlUWlpsWUlWUkl2cENybnhtQjBl?oc=5",
-      "fecha": "2026-11-16T00:22:57.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "Puente peatonal sobre el río Sinú: la Nación pone $100.000 millones para su cierre financiero",
-      "medio": "LA RAZÓN.CO",
-      "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOWG5LLUJvWjI4T1hKMGMwcXdEb3Yxek1meGlpMUt6THF5SFUwdW96bFNuM0drWS1fR0VYN2ZKWjZQVTR2SGVpSlkzLTVDX3Izd29DTjNIbnZaU29sdlNSZ2FMWjhUSDd3UXQ3bUxoLUtQYlNiUU0tRjR0VnFXNC1MZ2NrX3Vjd3ZTWmI3RGdFRnEtT2JuY1l0S2MwVFZtYVVaVlRhTHhGYlJZb242MXBUU01vRkhqRXRBYUFxTmFvY2o1UHVuLVd1eHRRSHNXWmVaNHAxaFpQemtiN0hOUUdZYzNtRUdvMk81ajROWEJQbE9SSW5kb1E?oc=5",
-      "fecha": "2026-11-15T16:44:18.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "Puente peatonal sobre el río Sinú: la Nación pone 100.000 millones y Alcaldía y Gobernación aportarán por mitades los 44.000 millones que faltan",
-      "medio": "LA RAZÓN.CO",
-      "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOWG5LLUJvWjI4T1hKMGMwcXdEb3Yxek1meGlpMUt6THF5SFUwdW96bFNuM0drWS1fR0VYN2ZKWjZQVTR2SGVpSlkzLTVDX3Izd29DTjNIbnZaU29sdlNSZ2FMWjhUSDd3UXQ3bUxoLUtQYlNiUU0tRjR0VnFXNC1MZ2NrX3Vjd3ZTWmI3RGdFRnEtT2JuY1l0S2MwVFZtYVVaVlRhTHhGYlJZb242MXBUU01vRkhqRXRBYUFxTmFvY2o1UHVuLVd1eHRRSHNXWmVaNHAxaFpQemtiN0hOUUdZYzNtRUdvMk81ajROWEJQbE9SSW5kb1E?oc=5",
-      "fecha": "2026-11-15T16:44:18.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "Golpe histórico: Con 23 años de crimen, alias 'Pata de Palo' cayó en Montería",
-      "medio": "Diario del Cauca",
-      "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTjd4cTlva09VdF9kcURTYUJsVHB3cV9nRzZodC14SDVwRzFIWmZZMHdqeG9iVVFMMzFVYnpLS0tOdFMzMGlXWVhKbHJGZi1td0o0VUF3aFVVNE5rM3FUT29XQ2hZUm1GQlNDN0kzUWh4S0toVEQ1OFExbU81cVA0ZFFFS2dlbmM3NVhWOXk4SXlqd1d5RlpGSDdMcWMzT3pQT2YzMFpZSXZtdGlqQ09OMw?oc=5",
-      "fecha": "2026-11-15T14:53:32.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "¡Millonaria inversión para las vías de Córdoba! De la Espriella anuncia $1,32 billones para conectar al departamento",
-      "medio": "río noticias",
-      "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWk1ncVRYNkpoLWM3UG9kYXAtaFc4WE9IMmxIS1pteTVsT05zNXZjNFV4YnpJM3YyRXktcmpUTTJhOUFSQnRKV0p5M3hnX0lpdUU3SC1WRVpOcWtvMTE1dG1XVDBTYjNwVmZSUUx6SFFaeS1OQXhaS3FobkpYUjNtOWhJWXQ2U012MTV6QzU4TVY4Q204QVZPLUM0V1JWTTV2V2RfdnpSRFl0N0d1aHNESXM5S1VzZWQwOVVKMTdSelpYckx3eXFmbzZKa1Z0aThsbUHSAdcBQVVfeXFMT1k2NVZSdGJrbEFtVHFwamREaUZETldleGtfLVprYm9YdHlyR0poUHB5cHg0c2w4U2UxUzNsS1NCeV9teno1RW9pc1hFVGs5bHc1YmRyQjlnb25lM2dscTJYNVUwZlNmdll2dEFqeDdLcVVoa3JWUlNoQ0dndDdqaG1ULXdRektSMzg2X2l5WXJJVmVoX05yRjF5dnZIdlFDM1I2d2NqZUxJMDNOWjVqLV9sZDhEeXN0elB5Nl9lTm9KLThfY1dKQkZ2cklRMm1makFkakZPY0U?oc=5",
-      "fecha": "2026-11-15T14:23:41.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "Video: De La Espriella encara a alias Primo Gay en Montería y plantea enviarlo a un buque cárcel o extraditarlo a Estados Unidos",
-      "medio": "Diario La Libertad",
-      "enlace": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPb2FoOHdWYjFBRlFQUm42TkRjc3JZelZPdTk3dTJaZjZqU1R6UnZmemh4RWljOWJwVVNtVkJWSHgyRk9VSmNKem5yWjdha2o1VGNOa1NfalJjaGd2d2h2b18tZTRuRlMzcVJzOTB3aEU2enRhaHV0RmFWdzU0RjdwV2FrZHVfOGQyMHR2VkpSbkFwa0NFSFJZSGc3ekRSQ0JIejZZNm1zVEhhU2h4QVhtYWpTdURVd1NpNWp3YVRfNVFnWFpyMzBvZHVvSDlPb0xiQjFIS25sQnNhNWNIOVdxTHZ2c3VvN1Rtd3RoOUhJNUQyd0htRVI5Nk5kWHk?oc=5",
-      "fecha": "2026-11-15T13:37:33.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "Alcalde Hugo Kerguelén presentó la camiseta oficial de la Montería Media Maratón 2026, evento que reunirá a más de 4.000 atletas el próximo 15 de noviembre",
-      "medio": "Alcaldía de Montería",
-      "enlace": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQLU1qRllROWwwMTQyMU55MUNJLS1uUVZfR0pKQzlDMU1tcVVnaFg1cndpNzFOM3BTVkk3YkJ1cVlNWE5kX1RJWDFncjBDUl8zUkZwZzBUUFVtLVVSZzAzV1JmTS1jNVpPOFpfZzVuMG91REE0Z0RCc1N0RFhpSDFUb3pYZ1ZsQkRscENhN0pVZFdpdHVvd3ZCNEJkUHlYVG5ZZTNUSkNPcE1WSktOVkxKeUlEX0o0bE1OQ2xZUDNscGNQSkU4WjlYdUxNTmFuX0loR0FnOHkwNFg3YUlXZ2pDLXNSaGFpM3AxRDY2TTNLSWt1Mlh6bVFtQlo1dmpVMTZYdHh5QW14cXdZTVVUNEVJX0lSOG93Y1VldTBQckpBZXpwbDhCWkhSSA?oc=5",
-      "fecha": "2026-11-15T08:00:00.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "Asesinan a tiros a presunto venezolano dentro de su vivienda en Montería: investigan posible ajuste de cuentas",
-      "medio": "Primera Edición Col",
-      "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPT21BN1ZlOTR1QzlDVGRQelh1d0lIaGlhcFptRENObzhkRUVSZWxyZ3NfckJOcGEyZE5VdWhGa0txOGtQTlpqNm5JVGNDZ29HQmpEZFloMHZBQUphX0xMS3czaW5ydldYNWs5MDlvSnJPaXFQRlg3QlZKYmFqTk5aMnBCR05qNEYwZEhjdmpadXg0MVk2VEFHUkhjSmN1cjRzN0ozLWoyUHIxdXJXSnEwQjFhVWVkcjRtcWs2clcwUWVDT2ZMc2J6elRCM2hQbEJkbFJaVkIzaw?oc=5",
-      "fecha": "2026-11-15T01:40:49.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "Más de 4.000 corredores tomarán las calles de Montería en la Media Maratón 2026",
-      "medio": "LA RAZÓN.CO",
-      "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObGc3enhXSFVpeWtkaFRWOGxJUEVzOW5KQTl3NnhGdm10WmxzWVdxRVhfVE1GUXU0MnBtbU5NUE9rVFd6SnFjdEVESFBReG90OURoV0hGMXdyREM2XzZZdGpLam1UelY5N0V6M2FuZE9CQmNtM1ZXb1ozMWxSVVhZTmtQRmJ5a0ljUVdydnF3bEVQcVNLdlpqb1FvT0xCMXpV?oc=5",
-      "fecha": "2026-11-15T01:23:09.000Z",
       "auto": true
     }
   ]
