@@ -1,7 +1,77 @@
 {
-  "revisado": "2026-11-27T18:52:49.919Z",
-  "actualizado": "2026-11-27T18:52:49.919Z",
+  "revisado": "2026-11-28T01:54:32.814Z",
+  "actualizado": "2026-11-28T01:54:32.814Z",
   "noticias": [
+    {
+      "titulo": "Montería ardió con sensación térmica de 45 grados",
+      "medio": "LA RAZÓN.CO",
+      "enlace": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ic29hZXk1Z3lQeDVVdnlTMGFJc2xmZk4zc3JoUE00OEpGMVZvcXpYYm43ZzZGV29sVlh4U0t3ZjVwSER1SjFmejlLcklYUzNjdTJNOEZuVEdyTjBuTXIxekNNY0gtdTZ4Y200aThCYWlSTlhxd1FkcQ?oc=5",
+      "fecha": "2026-11-28T00:06:31.000Z",
+      "auto": true
+    },
+    {
+      "titulo": "Reacción oportuna de la Policía de Montería permitió capturar a un hombre armado",
+      "medio": "ELHERALDO.CO",
+      "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMUVoaEtxN3dMS3NUUWhYWEMzNmFnc3pWMjM2Zi1EUEItajVjLXEzU19GQkgtM2Y5X0dBQU9KMjEzeGw2VkNEbFJDc1NZNm90OVJiQ3MtUDgzSjJlZ1J6OV9mWGJCTENPLTE4RlhRWWdZNW4zZEs3Nm9EU0ZWQXN2Q2U4SzZSMUFxNlFoc0owWklQcHVZMHJYbFQ4ZlBQZG45R1ZCS3JmUUNHdHdnY1pSTkdBU3paNXpuSjBsSmVOcXNhbXdW?oc=5",
+      "fecha": "2026-11-27T23:09:19.000Z",
+      "auto": true
+    },
+    {
+      "titulo": "Afinia admite que la subestación Río Sinú se sobrecarga de noche y corta carga en el sur de Montería",
+      "medio": "LA RAZÓN.CO",
+      "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWVgwUVBBRl9TMld3eURHOXdWT1V5WnFLbXZIQjBjaXA0d2pQVXJkbm8xbFZEOW5ENDlSc21BN2JBenp3ME40OVZ2dFF0VF92OUwwVEFFZ190UWVrQ05hUUZwRTd2eFpzNzg2SkNxVWFaMzh0dU5ORkxpc1VnXzFCWWppcm14dExBTjZ6RGVueEpOZ2c2TnY2Wlc5N1pUNWMxNGdpLVRqS0RxWS1DYkdtZWl4alQ2RUFGQnNPTw?oc=5",
+      "fecha": "2026-11-27T22:56:35.000Z",
+      "auto": true
+    },
+    {
+      "titulo": "Montería entre las ciudades más calientes: sensación térmica alcanzó los 45 °C",
+      "medio": "Chica Noticias",
+      "enlace": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAwUXN2WFRGRzJucUZSdjFNdjFjS1l6Y1ZVenFrRXhYVEwyd0F6bkhESXA4VmJ2am8yZUJmSEhSTGc1NTZKVGM4bGRaSzBfV3NMaHpSMy1WZl9JcXNmYjgyWEMycTE1dW5NTkd2MWhLdHNiOHpXVk5xUEs2cnZLdw?oc=5",
+      "fecha": "2026-11-27T21:46:13.000Z",
+      "auto": true
+    },
+    {
+      "titulo": "Montería proyecta su futuro con el río Sinú como eje",
+      "medio": "NotiPregonar",
+      "enlace": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPLTNMU0daZlpzSWJYeUw0YUpCbkxzM0R6WlFqM3FnLXlvXzR5a0k0OGw1aDBVY0M4QjB2RmM0clppZ2l2bVpraFBseGdhMmJGem02MlNXdVpkN01JUzZFUFh2NXBpcVZyQzZCLV9mYXZ0YzRRN0Q2QWt0Y0pCOU85dVVMbEQ?oc=5",
+      "fecha": "2026-11-27T21:11:18.000Z",
+      "auto": true
+    },
+    {
+      "titulo": "Afinia fortalece acciones en la subestación Río Sinú",
+      "medio": "El Meridiano",
+      "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNWcwWGJXT0ZiaGxubW1laXp3OWRXQWxPV2Z4dkFiSC1zLXcxcEZMdmRaaGw2YlNBT3hOdnRMYUg1akF3elpsa0JGT2REbkxfX2JtdmZ0MUtyLUxHZFp3ckt4Ti1iZnlsT040MWNCOV9HalBpY05aMEZlNWVRTk9pTG1DRmROcVk0NEppa0lFY2RSZXFsSjFFeW44VngxQWlY?oc=5",
+      "fecha": "2026-11-27T21:00:31.000Z",
+      "auto": true
+    },
+    {
+      "titulo": "Montería sigue en el tren del Caribe: Kerguelén confirmó que la ciudad quedó en los estudios de factibilidad",
+      "medio": "LA RAZÓN.CO",
+      "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNV1BBbnhWVkxyVF9lQWRDZVpRLUJBaWdjOXRiQWdHY3BPR2hFVXFTWGh2YkJveFlTTUhwNUM4SGZRZFdqemZVZ2VGUlhCdmhiclFycUFvMXdkRlZMaVM2b3VVVVZ0cHAyNjlScXNBS3BzdGhnWXBKMEM4SWxSODdPNTR1STNSc1pITy1kT3NFM0t3NVRkUFlVOWRqZ2hDc21iR1dheU4tZUdxS0NlVmF5bnhoaUlmRzFNSEtiZExWSE1DVFNhVEE?oc=5",
+      "fecha": "2026-11-27T20:49:22.000Z",
+      "auto": true
+    },
+    {
+      "titulo": "Montería sacaría las aguas lluvias del centro al río Sinú por la calle 44 con un drenaje de 490.000 millones",
+      "medio": "LA RAZÓN.CO",
+      "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNzhOVW5lMnpEM3BMdi1HcFBVVmFtR0R0TGhGcWJEbG0yQmVFT1JuQmRpRjFMSWVwSENoUGdMT0xPX0JFbUxBNFB4aVN2c1ZzMW5xck5YRU1HM04wTmw3dmMycVNHYXI1dTktSGFrU2V2WEtIMi00Q3h1ZnU1ejZuS3B6UTJGcWl5UzNTclhRNzNZZlU2U3pqeDd4cDJFdXF6OG91VTZCWkdKcjNIMnlONFFjd1JYbmJhVm94NVRud2pLemRVb2Iw?oc=5",
+      "fecha": "2026-11-27T20:32:39.000Z",
+      "auto": true
+    },
+    {
+      "titulo": "Alcalde Hugo Kerguelén y expertos debatieron sobre cómo construir una Montería más verde",
+      "medio": "ELHERALDO.CO",
+      "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOWlVBU3pUd2cyb0VBdmJTZkxZX1N5V0p1X1RadjdqM1JzNThVNEVzLUc2dTZGRnQ5OXUySVN3UjZrYVlNcVByQ05Nc2FSRG5JelY0U2lBM3lkVFVXT0dyWUZfeExSTjgxdkVDV0Y2MnJJbEZkbWF1dmxTejlzUno0SUhCa3FSOFJHRHQxVUl5a1I0VlEybzg1SzFlSHpYalBCbDdKamlfUlV2U21HS3VsYlFkTHZIcnhrT19ZLTVPNFRrOEpVMXFMVktoSXV4bklzQnVlWkUwV3NKWklyVmZyc1BhOUdvODJIaWc?oc=5",
+      "fecha": "2026-11-27T19:56:22.000Z",
+      "auto": true
+    },
+    {
+      "titulo": "Abren tercer proceso por masacre en Chimá, Córdoba: investigados se defenderían en libertad",
+      "medio": "Caracol Radio",
+      "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSGVnd3Z2Qk9JWjdVX19LbGZ3US1fdXZmNlQzTDRXZ1ZUdzIxYnR4OURDZmEydjdHNktfTGdrY0x2N2ZhMWszWlJOXzhzdk83aFNfSU9DWHdGSHh4cWlPR1FxWC1uOEVWRU94UEw2cDFfRDV1Y0FSTnRlaTJQbndRX2FIanBYNTRWRnFoc1RmWnE5M2VjczNxbkxhdzJYV1JDaGFvRHdfS1FuYmlTbnJWdXhuS1ctTWl1TTZ6TXVfWnVWd9IB1gFBVV95cUxNQk1ISUlWam1EQXhfNHRQQlctcXlVVW5YRzQ5NkxfOUdLRUhlNEUzMi03UXFibDdpRm5kQ2dwNGR1NEhKZDVBNFpOZlhYSFBVRW55Q2U3ejk1MlhYMmFtc1NKX1k1YzFJcHJrdXd3YXhXTmlvNU1KQnU1cU1ZSUowUDZmVmNPZ1puMmlUS1llUGRYc2lla3RBZWV3NnZWWVBjVHN3UlBNdm9kLVJac3E0cy1VWkRzSXhWc0lPbVkySV8wQzV6OVNqSjU5MC1qU0laaE5za0ZR?oc=5",
+      "fecha": "2026-11-27T19:10:45.000Z",
+      "auto": true
+    },
     {
       "titulo": "“Con el agua no se pelea”: Hugo Kerguelén plantea el futuro de la ciudad de cara al río Sinú",
       "medio": "Chica Noticias",
@@ -980,76 +1050,6 @@
       "medio": "Caracol Radio",
       "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcFh3OW9GVVNOVUVaZDRRVnBkNHZYN2RNeWgtTVk4OEoyS3JFMTRuaDZnRjZ2Z1htekFmMWowOWV4bHU1azk2d1F6d0Fzd2FQVmRhOVlRemdXY1RtUTd2T0dFa20wX1Y0Ym40V3pITnRyeHVnQW1SMlJLTExIWmJ1cjFXU0R5RzRMUXpxZ0FTeVhIMWV6Z2tYdVhCZmNNQW5ENm1uTGdtLUV1dzlMa2NSbTJZak9Ia2dkZ1lLVTlGd0NrUdIB1gFBVV95cUxQM0NESS1ZR0s2MXZJaV9NNmQ4S3NUZkU5VHNSZWRnT1E3VkVJS1c2QVZpVUVBaXVmeG1nV0d1U1h1QnAtWGVULVd0LUl2UU5fNno3aDhWX3V1eHNMeUdrUTlkN3Jab3pVLTB6QmZJWkduODR3b1ZBQTd0YmZHckZWWVhWNXdvRFJNaF9sNG1XWk5ycVF2VkE0cFRvbGN2QUF1MUNqZm5HZk1uWHZXN1ViajgwRXpmWlVELUpleU5TUl9qaXE0bG1LQ1pCX3A1b2JQY2VIVTZR?oc=5",
       "fecha": "2026-11-18T15:35:13.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "Said Bitar celebra modernización de Los Garzones y destaca nuevas oportunidades para Cereté",
-      "medio": "Chica Noticias",
-      "enlace": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9BM0NIbmpXZzk4WnNFeHRjWVhXbHhYOXJEZXVDeWNWTS00eFFZaEVMTkcyd0xSMDAtOFppLWxGdDZWTmIycFdWRVhrZlVXd3laN1IwUzdEMkd4NnRXaFhSS3V3d3dOb0ZmMHoyRUViOENRcVBMSXRCejBYSQ?oc=5",
-      "fecha": "2026-11-18T14:36:05.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "Policía captura a presunto cabecilla urbano del Clan del Golfo en la margen izquierda de Montería",
-      "medio": "Caracol Radio",
-      "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORl9YVlRGTWJYSG1kTjFGN056UXBJT01MTFJUek1RQkRIMG1nYzVkZ19HcHcwOE8xM1hzLXdaUHhia0ZiQ0dxaXVwV2NMbHpxMHdqVjdLTkZJUk82SjlUOVpRbHgzV3NKQk1hMmlxS1dJWVpHVjZQc1A1YllSWlhvYmN5WFEzZjVvbjQtaXdkMGVFOVJYU3VCbjJnNEpHOHRaRGROZTZpcFIwdWMta29xTnBRSXdNbG05ZWFhckpMcmFBU2I5RDliUkpXWWrSAeABQVVfeXFMUFJXOXFqMlpsSjQ3VmJRUzE2eGw5UjN3VkRBWVpyMjd6MlB4OER4QjlQUUNGSTZ6V3dKSmZkTl80djhDOElnMDZvVjVwZUtWODRVTDh6TmwxRTh6cHZ0Si1Tam5nU3NGYjNqWTVXQ2ZRN0xtNWd1MGhyakZxUGJXZ0FQWFhORGFOa0J2NU41dW9Rd3JPejBUWTFnam5xdXR6ZnVRQS04MmNfQ21VODFnaGYxdTJNbC04cGU2U2RtZ1IxVUhia3dtNHF5cmxrQzgya3M0bWJmYy1Yd285MmdsaWw?oc=5",
-      "fecha": "2026-11-18T13:12:08.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "Córdoba se suma al paro nacional: docentes marcharán este jueves 19 de noviembre",
-      "medio": "Chica Noticias",
-      "enlace": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8yZDJBOFY0Y0tSZVFsdnNBWE5aNGVVY1BhZUczUS1JMFdncksydXNMTWk1WlVLUmdqM1h2dGJhVWw1bkd1RzRtYmk1enV3dHNmeHB2QzZISDlRd0hyU0FlTC1qREl0eVk5NlpCZHZUeWhZQWxDWXc?oc=5",
-      "fecha": "2026-11-18T13:04:25.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "Capturaron en Montería a alias “Pacho Arenas”, presunto cabecilla urbano del Clan del Golfo",
-      "medio": "LA RAZÓN.CO",
-      "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZGpUS2RmbU5ZZG11LU0wNXd3aVo5MzF3ZDhIYUppSFVJMDFabXBpanRWOWJadzdOenRXU2FsOS1IWGRud0I4LVFmM3hNMFFZWk9rY2dLd3IzdHZLcFNhX0tRaGRTSHFBSXZ1ZkV6NkhrQk44elJfMlFlaF9HTGJMbC1pUko0S0doWG1XYU5QRUE4SFhzMDUxdERISDhxNER6SW8weDNBNnpKR3hR?oc=5",
-      "fecha": "2026-11-18T12:44:47.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "Montería blinda las Fiestas del Río con un plan especial de seguridad del 20 al 28 de noviembre",
-      "medio": "LA RAZÓN.CO",
-      "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcUxvbE1QMUExcTZVWnZpNGtuM0FDZDRDY0xRMnRDTzJLTjFrY2d2NlB4MUFIcWVfX3JUMjhZTW1LVEk1ckxpVXNNRW1WdFBrcUZrRVZFNFUzOEZXRC1BWGxRdmpFSHFsTGlua2k4Q0ZFRVVxb29FRjNBcXFNaUo2Z3ZIOV9mTkpvSDdnTjBFQ2Q0aUhDcXlFQ0VmVmpfODZIa0pTb2Vuc2lmTVVmRjFDb05HdkVfQQ?oc=5",
-      "fecha": "2026-11-18T12:10:48.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "Jardinera De Cerámica Andaluza – Decorada A Mano Con Motivos De Montería, 30x13x13 Cm, 2.3 Kg, Hecha En La Rambla (Córdoba)",
-      "medio": "Poder Popular",
-      "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdmVLdnowcXFLLTdZeU9FMTVrMlVONnJZOEpwSVRxVU5iQWcwVXNKUEp0U0h4R2Y5RjJweEp2dVVtcFE1TzBTTG5vVDF6ZjZkYWdfNWFtRzRVMlRreVRES0VMYlZpN2RyaGZzcmd1SlRQOW1SZkg2RHh6aXdQY2dlVFdpNE0xblRsTVBfc0k4MjVZNEJITE9idV9idw?oc=5",
-      "fecha": "2026-11-18T11:35:25.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "Comfacor advierte sobre ocupación ilegal de un lote de su propiedad en Montería",
-      "medio": "LA RAZÓN.CO",
-      "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNM1hoc0dfMlZQSU9LZVVxSFRzMGRraVJaU2hsTzBOOTJEQ0c4Ql9GUkFCQzEwc3hBRnl3U2xHT1l1MFBNSU5mM1VCWTR5UzJHY1RIeC1QdWNVTWFqeHNzN1JObUxOMnExNnp2U1RvTnJhX2c4cjZPZUkxOHE4V1pvbndva09JVVhKQ3NWaVZpYWh5dHB5dDhWVFpBYWVoQ19E?oc=5",
-      "fecha": "2026-11-18T00:43:51.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "Defensa Civil de Córdoba entregó calzado y prendas de vestir a estudiantes destacados de Montería para su inmersión en España e Italia",
-      "medio": "ELHERALDO.CO",
-      "enlace": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPVnJ6R0VsZlBwdndoUGtFbFZBN1FIdGNkZG1MWHV2Um1USDZxUHVVcEx1VkFTRXU2SExWSzlDcmZsSi1lRkt1djc3N3JlcTBjcVhET19tMm5yR2dyeFVYNnRHdjJZaTltc183Y092cmhPcW5DSDNfSXdTZ3p2d0pNZkRhWm0wbUNLYzNmSDF0aDN6ekRIckZ3N2x5alVJZjJIM1NFTnl2UGNZTUxsUmV0RkJfSDFBd0F5UEJBelNSV1BOQlFDazdDM21Jc1hxSkZLd1d1dUhpVjBzZzhrM3FpNFJhdTlOOEhqYnVieGlveW55OGFVZEtyNTdqZlhMa3FrRTJpMXMzRmtMY2ot?oc=5",
-      "fecha": "2026-11-17T23:58:21.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "Capturan a padrastro señalado de abusar de una niña de 10 años en Montería",
-      "medio": "Aldia.co",
-      "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVnJXNm1uQy1WdjFpeUFwZ1FOQnQ4cnViNHNHRjVXTEhiN216eVFDbnVBeEdYWFVUVW1YVXJFOWVkYmRxRW1aWDBJS3E1c2dCUHNxSzREM2tteUVNSjE2dnM3SlV5SnpHdUdNSmpoc2hxVFpScjVvSHg5Rmc5Q0lMWmFFSDB1WW1iR19NbmQyV09SaGt4cFAyU0JRckRRWEhuN2xRUUg3eGZfVl9TMlE?oc=5",
-      "fecha": "2026-11-17T20:15:00.000Z",
-      "auto": true
-    },
-    {
-      "titulo": "¡Montería se alista para las Fiestas del Río! Este viernes 20 de noviembre comienza la celebración con imposición de bandas y concierto gratuito",
-      "medio": "río noticias",
-      "enlace": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQT1ZFRERBeUM1RkxlTEQzVXVZTEFGV0NMYTkxclNIbDFVTlVoTnJsZWJpblQ4SWxxTWtWOGl6Mk1VbkZmcVRoWXhBOVJBMldxVlRrYVJkTVRKSk11c19uSDVVYWh1MG9rM190REg2YkYyNFU3RTVITzNsQW9wVElvYW1EUkJaU29Db3E2VTBUNUZCU1VpbmU1Qk9GVmJtZXE3azNkTGlhTkxuZzc2eU1NZWpvN1k4Ukg4bm03eDhTbS1seUsxZUJjRENMcHpqcUhIcTNJRnNJenlLT3oxMUpieC1raFV4bDR3S3VvTjh4OGkzN05DTzNpaWFn0gH_AUFVX3lxTE1tc01QT3ZTMmRVYmVwaTRaU193dVpsbXhOODBDQmFrVTR5bzZCMlllRmx4b09tR1VCWlNKSmRFZ19LM21nSzRQY1BxRGxGTnRTYWJlNkNHVkttbmUxWUFlVzNNbTFseGcta1VINF9KVU9OaWFhQmhRbzFfUlhHWlBFbTRFS05KSU9ZT1ZKV1pNanlGamdNZWJrdEpFVFhoREI3ZlNYQkxVMnFfSHJsN0Q4NjRLMTZxeUZ4NWdwM3ZFSklCVW1rOHZteXJScmUwb0pFRXBuUndiU3I1cV9UV284X09EdjQ5SFZIQTNNakNYbXFNbGt3d3k5MkxTZHVjMA?oc=5",
-      "fecha": "2026-11-17T19:34:36.000Z",
       "auto": true
     }
   ]
